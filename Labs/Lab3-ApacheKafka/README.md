@@ -28,7 +28,7 @@ https://codelabs-preview.appspot.com/?file_id=18gjiG4BLFSI-kqlX1QL7PYNOW0s6KEOY7
 
 **Apache Kafka** is a streaming message platform. It is a publish-subscribe based durable messaging system. Kafka is designed to be high performance, highly available, and redundant. It is used to collect, process, store, and integrate data at scale. A messaging system sends messages between processes, applications, and servers. 
 
-![Kafka](https://user-images.githubusercontent.com/59594174/109211212-ed3fdb80-777b-11eb-806b-ec53a6f06118.png)
+<img width="543" alt="Screen-Shot-2017-06-04-at-2-44-24-PM" src="https://user-images.githubusercontent.com/59594174/109214042-57a64b00-777f-11eb-8e93-472a4967cdd6.png">
 
 It’s basic use cases includes:
 - Stream Processing
