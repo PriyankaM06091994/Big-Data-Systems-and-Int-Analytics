@@ -17,7 +17,9 @@
 #### CLAAT Link
 https://codelabs-preview.appspot.com/?file_id=1S2tP87Y0Bd7wZ-3jqAKWdCUl9__4dgl7RFbByM7HNS4#0
 
-**Lab Completion Date: 22nd January'21**
+### Lab Completion Date
+
+22nd January'21
 
 ## About
 
