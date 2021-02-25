@@ -18,12 +18,12 @@ https://codelabs-preview.appspot.com/?file_id=1S2tP87Y0Bd7wZ-3jqAKWdCUl9__4dgl7R
 
 ## About
 
-This lab demonstrates the implementation of AWS CLI and other services like IAM, Amazon S3, comprehend and lambda.
+**This lab demonstrates the implementation of AWS CLI and other services like IAM, Amazon S3, comprehend and lambda.**
 
 ![AWS](https://user-images.githubusercontent.com/59594174/109194191-32a5de00-7767-11eb-916e-827815f25b96.png)
 
 
-Amazon Web Services (AWS) provides computing resources and services that you can use to build applications within minutes at pay-as-you-go pricing. You can run nearly anything on AWS that you would run on physical hardware: websites, applications, databases, mobile apps, email campaigns, distributed data analysis, media storage, and private networks. The services they provide are designed to work together so that we can build complete solutions. There are currently dozens of services, with more being added each year. AWS is readily distinguished from other vendors because it is flexible, cost-effective, scalable, elastic and secure.
+**Amazon Web Services** provides computing resources and services that you can use to build applications within minutes at pay-as-you-go pricing. You can run nearly anything on AWS that you would run on physical hardware: websites, applications, databases, mobile apps, email campaigns, distributed data analysis, media storage, and private networks.  AWS is readily distinguished from other vendors because it is flexible, cost-effective, scalable, elastic and secure.
 
 ![Services](https://user-images.githubusercontent.com/59594174/109194273-405b6380-7767-11eb-9d3b-2205df0addf6.png)
 
@@ -36,15 +36,15 @@ Amazon Web Services (AWS) provides computing resources and services that you can
 
 3. Configuring AWS on your system
 
-4. Getting started with IAM ( Identity Access Management )
+4. Getting started with **IAM ( Identity Access Management )**
 
 5. Creating a virtual environment
 
 6. Installing all the required packages in this virtual env - `first-lambda`
 
-** Faker: **  A python package to generate fake data
+**Faker:**  A python package to generate fake data
 
-Boto3: Boto3 is a Amazon Web Services (AWS) Software Development Kit (SDK) for Python which allows Python developers to write software that makes use of services like Amazon S3 and Amazon EC2
+**Boto3:** Boto3 is a Amazon Web Services (AWS) Software Development Kit (SDK) for Python which allows Python developers to write software that makes use of services like Amazon S3 and Amazon EC2
 
 ```
 pip3 install Faker
@@ -58,7 +58,7 @@ pip3 install boto3
 ![S3](https://user-images.githubusercontent.com/59594174/109194316-494c3500-7767-11eb-81d0-f89879293d2b.png)
 
 
-Amazon S3 - a simple storage service is a scalable, high-speed, web-based cloud storage service. 
+**Amazon S3** - a simple storage service is a scalable, high-speed, web-based cloud storage service. 
 
 
 --> Ensure below mentioned rules while creating any S3 bucket:
@@ -76,7 +76,7 @@ Amazon S3 - a simple storage service is a scalable, high-speed, web-based cloud 
 
 ## Lambda-serverless-py
 
-AWS Lambda is a serverless compute service that runs your code in response to events. It lets you run code without provisioning or managing servers. Lambda runs your code only when needed and scales automatically, from a few requests per day to thousands per second. 
+**AWS Lambda** is a serverless compute service that runs your code in response to events. It lets you run code without provisioning or managing servers. Lambda runs your code only when needed and scales automatically, from a few requests per day to thousands per second. 
 
 
 ![lambda](https://user-images.githubusercontent.com/59594174/109194337-4fdaac80-7767-11eb-8598-060c8dd09af3.png)
@@ -110,13 +110,13 @@ pip3 install pandas
 
 Three files will be generated viz. Config.yaml, events.json, service.py
 
-The service.py is the file we will be using. We can edit service.py with our Python code.
+The **service.py** is the file we will be using. We can edit service.py with our Python code.
 
 #### Deploying lambda function
 
 `lambda.py deploy`
 
-Lambda function successfully deployed
+**Lambda function successfully deployed.**
 
 
 ![deployed](https://user-images.githubusercontent.com/59594174/109194379-58cb7e00-7767-11eb-9c64-7f3adf9f79d7.png)
