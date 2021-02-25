@@ -1,3 +1,26 @@
+#### Team Information
+
+| NAME              |     NUID        |
+|------------------ |-----------------|
+| Priyanka Malpekar |   001302741     |
+|   Tanvi Gurav     |   001443824     |
+|   Keerti Ozha     |   001050173     |
+
+
+### Lab 1 - Getting started with AWS + Lambda
+
+#### CLAAT Link
+https://codelabs-preview.appspot.com/?file_id=1S2tP87Y0Bd7wZ-3jqAKWdCUl9__4dgl7RFbByM7HNS4#0
+
+
+
+
+
+
+
+
+
+
 ### Getting Started with AWS
 
 #### Requirements
