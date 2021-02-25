@@ -1,66 +1,87 @@
-## SQL Alchemy
+## Big Data Systems and Int Analytics
 
-SQLAlchemy is a library that facilitates the communication between Python programs and databases. 
-This library is used as an Object Relational Mapper (ORM) tool that translates Python classes to tables on relational databases and automatically converts function calls to SQL statements. 
+## Labs
 
-#### ORM?
+#### Team Information
 
-Object Relational Mapper, also known as ORM, is a technique used to write database queries using the object-oriented paradigm of your preferred language (in this case, Python)
-
-Think of ORM as a translator that converts code from one set of abstractions to another - Python to SQL in this case.
-
-#### How can SQLAlchemy help?
-
-SQLAlchemy provides:
-- A standard interface that allows developers to create database-agnostic code to communicate with a wide variety of database engines
-- Enables Python developers to create applications that communicate to different database engines through the same API
+| NAME              |     NUID        |
+|------------------ |-----------------|
+|   Tanvi Gurav     |   001306848     |
+|   Keerti Ojha     |   001050173     |
+| Priyanka Malpekar |   001302741     |
 
 
-Most of the popular relational databases available out there adhere to the SQL standard, but they also introduce proprietary variations. These variations are the solely responsible for the existence of dialects.
+## Lab 4 - SQL Alchemy
 
-Getting first 10 records on SQL Server
+#### CLAAT Link
+https://codelabs-preview.appspot.com/?file_id=183kIAkFW17W4uYY-511ylLhZttSelI7q383qufLBMYc#0
+
+## About
+
+**This lab demonstrates how to leverage SQL concepts through a traditional Object-Oriented Programming approach with the help of SQLAlchemy.**
+
+![sqlalchemy](https://user-images.githubusercontent.com/59846364/109201435-d72c1e00-776f-11eb-99b1-8b8571d925ef.jpg)
+
+
+**What is SQLAlchemy?** 
+
+SQLAlchemy is the Python-SQL toolkit and Object Relational Mapper that gives application developers the flexibility of SQL. It provides a full suite of well known enterprise-level persistence patterns, designed for efficient and high-performing database access, adapted into a simple and Pythonic domain language.
+
+SQLAlchemy Architecture:
+
+![sqlalchemy-arch](https://user-images.githubusercontent.com/59846364/109200103-31c47a80-776e-11eb-86b1-b66a0d25a866.jpg)
+
+
+## Requirements
+
+**1. Configuring Python on system**
+
+For Ubuntu/Linux:
+
 ```
-SELECT TOP 10 * FROM table;
+sudo apt install python3
+sudo apt install python3-pip
 ```
-vs. getting first 10 rows on MySQL
-```
-SELECT * FROM table LIMIT 10;
-```
-For SQLAlchemy to know precisely what query to issue, it needs to be aware of the type of the database that it is dealing with. This is exactly what Dialects do.
 
-#### How can SQLAlchemy help?
+For Windows:
 
-- Speeding up web development since we don’t have to switch back and forth between writing Python and SQL
-- Eliminating repetitive code
-- Streamlining the workflow and queries the data more efficiently
-- Abstracting away the database system so switching between different databases becomes smooth
-- Generating boilerplate code for the basic CRUD operations
-
-References: <br>
-(1) [auth0 blog](https://auth0.com/blog/sqlalchemy-orm-tutorial-for-python-developers/?utm_source=medium&utm_medium=sc&utm_campaign=sqlalchemy_python)
+https://www.python.org/downloads/
 
 
-### Requirements 
+**2. Configuring SQLAlchemy**
 
 ```
 pip install sqlalchemy
 pip install psycopg2-binary
 ```
 
-### Getting Started
+**3. Setting up the relational PostgreSQL database**
 
-Enter your connection details to the PostgreSQL server in `base.py` - in my case it is 
-```
-postgresql://localhost:5432/postgres
-```
-since I have no username and password to my database. Creating an engine does not connect to the database instantly. This process is postponed to when it's needed (like when we submit a query, or when create/update a row in a table).
+https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
 
-- `base.py` contains the connection params to connect to the instance
+## Use Cases and Test Results
+
+#### Contents
+
 - `customer.py` - A sample Python classes containing 5 attributes that we'd like to be converted to a table
 - `main.py` - Insert data using the newly created class
 - `queries.py` - Querying the table
+- `base.py` contains the connection params to connect to the instance
 
-### Additional Resources
+**Enter the connection parameters to connect to the PostgreSQL server instance**
 
-- https://www.sqlalchemy.org/
-- https://docs.sqlalchemy.org/en/13/orm/tutorial.html
+`postgresql://username:password@host:port/database`
+
+Once the engine is created and data is inserted using `main.py` program, login to pgadmin console to verify the inserted data:
+
+
+![sqlalchmey-pgadmin](https://user-images.githubusercontent.com/59846364/109202149-a8627780-7770-11eb-9e02-f18275a5bdeb.PNG)
+
+
+Further, the `update_record()` function for updates a record into the database with updated name from **‘Jane Doe’** to **‘Ryan Gosling’**
+
+
+![sqlalchmey-pgadmin-updated](https://user-images.githubusercontent.com/59846364/109203025-a947d900-7771-11eb-955a-ac28da0542aa.PNG)
+
+
+
