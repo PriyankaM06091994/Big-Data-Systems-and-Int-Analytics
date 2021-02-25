@@ -28,7 +28,7 @@ https://codelabs-preview.appspot.com/?file_id=18gjiG4BLFSI-kqlX1QL7PYNOW0s6KEOY7
 
 **Apache Kafka** is a streaming message platform. It is a publish-subscribe based durable messaging system. Kafka is designed to be high performance, highly available, and redundant. It is used to collect, process, store, and integrate data at scale. A messaging system sends messages between processes, applications, and servers. 
 
-![Kafka](https://user-images.githubusercontent.com/59594174/109211212-ed3fdb80-777b-11eb-806b-ec53a6f06118.png) | width="100" height="100"
+![Kafka](https://user-images.githubusercontent.com/59594174/109211212-ed3fdb80-777b-11eb-806b-ec53a6f06118.png)
 
 It’s basic use cases includes:
 - Stream Processing
@@ -56,7 +56,7 @@ These are four main parts in a Kafka system:
 **Specifications**
 - Minimum 4 GB RAM
 - Minimum 25 GB Hard Drive
-- Downloading ubuntu iso file
+- Downloading **ubuntu** iso file
 
 
 2. Installing **Ubuntu** Guest Edition
@@ -134,8 +134,7 @@ Using the twitter-stream.py script to  fetch tweets from Twitter's API in real-t
 
 Entering our **bearer token** in the twitter.py script under the BEARER_TOKEN parameter.
 
-Tweets are published to the Kafka Broker.
-
+**Tweets are published to the Kafka Broker.**
 
 On running consumer.py again, we can see all the published events that are collected by the consumer.
 
