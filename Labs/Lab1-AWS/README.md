@@ -1,3 +1,5 @@
+### Labs
+
 #### Team Information
 
 | NAME              |     NUID        |
@@ -19,7 +21,12 @@ https://codelabs-preview.appspot.com/?file_id=1S2tP87Y0Bd7wZ-3jqAKWdCUl9__4dgl7R
 
 This lab demonstrated the implementation of AWS CLI and other services like IAM, Amazon S3, comprehend and lambda.
 
+![AWS](https://user-images.githubusercontent.com/59594174/109194191-32a5de00-7767-11eb-916e-827815f25b96.png)
+
+
 Amazon Web Services (AWS) provides computing resources and services that you can use to build applications within minutes at pay-as-you-go pricing. You can run nearly anything on AWS that you would run on physical hardware: websites, applications, databases, mobile apps, email campaigns, distributed data analysis, media storage, and private networks. The services they provide are designed to work together so that we can build complete solutions. There are currently dozens of services, with more being added each year. AWS is readily distinguished from other vendors because it is flexible, cost-effective, scalable, elastic and secure.
+
+![Services](https://user-images.githubusercontent.com/59594174/109194273-405b6380-7767-11eb-9d3b-2205df0addf6.png)
 
 
 #### Requirements
@@ -50,7 +57,11 @@ pip3 install boto3
 
 #### Creating Amazon S3 Bucket
 
+![S3](https://user-images.githubusercontent.com/59594174/109194316-494c3500-7767-11eb-81d0-f89879293d2b.png)
+
+
 Amazon S3 - a simple storage service is a scalable, high-speed, web-based cloud storage service. 
+
 
 --> Ensure below mentioned rules while creating any S3 bucket:
 Block all public access
@@ -68,6 +79,10 @@ Disable encryption
 ### Lambda-serverless-py
 
 AWS Lambda is a serverless compute service that runs your code in response to events. It lets you run code without provisioning or managing servers. Lambda runs your code only when needed and scales automatically, from a few requests per day to thousands per second. 
+
+
+![lambda](https://user-images.githubusercontent.com/59594174/109194337-4fdaac80-7767-11eb-8598-060c8dd09af3.png)
+
 
 1. Creating a basic 'test-lambda function
 
@@ -104,6 +119,9 @@ Deploying lambda function
 `lambda.py deploy`
 
 Lambda function successfully deployed
+
+
+![deployed](https://user-images.githubusercontent.com/59594174/109194379-58cb7e00-7767-11eb-9c64-7f3adf9f79d7.png)
 
 
 
