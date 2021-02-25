@@ -24,8 +24,7 @@ This lab demonstrates GCP services like Datalab, Dataflow and BigQuery for imple
 
 ## What is GCP
 
-![social-icon-google-cloud-1200-630](https://user-images.githubusercontent.com/71197800/109201378-c4b1e480-776f-11eb-97bb-63d40a561250.png)
-
+![social-icon-google-cloud-1200-630](https://user-images.githubusercontent.com/59594174/109230009-2420ec00-7792-11eb-9ea7-203fa00a9d41.png)
 ***Google Cloud Platform (GCP)***, offered by Google, is a suite of cloud computing services that runs on the same infrastructure that Google
 uses internally for its end-user products, such as Google Search, Gmail, file storage, and YouTube. Alongside a set of management tools,
 it provides a series of modular cloud services including computing, data storage, data analytics and machine learning.
