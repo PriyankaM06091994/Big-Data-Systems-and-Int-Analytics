@@ -88,12 +88,12 @@ sudo ./aws/install
 
 6. Installing Java jdk
 
-``
+```
 sudo apt install default-jre
 
 sudo apt install default-jdk
 
-``
+```
 
 7. Installing Pycharm in Ubuntu
 
