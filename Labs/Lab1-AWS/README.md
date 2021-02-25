@@ -1,14 +1,14 @@
 ## Big Data Sys and Int Analytics
 
-### Labs
+## Labs
 
 #### Team Information
 
 | NAME              |     NUID        |
 |------------------ |-----------------|
-| Priyanka Malpekar |   001302741     |
 |   Tanvi Gurav     |   001443824     |
 |   Keerti Ozha     |   001050173     |
+| Priyanka Malpekar |   001302741     |
 
 
 ### Lab 1 - Getting started with AWS + Lambda
