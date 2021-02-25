@@ -1,22 +1,47 @@
-### Lab - GCP-Datalab/Dataflow/BigQuery 
+## Big Data Systems and Int Analytics
 
-#### Requirements
+## Lab - GCP-Datalab/Dataflow/BigQuery 
+
+#### Team Information
+
+| NAME              |     NUID        |
+|------------------ |-----------------|
+|   Tanvi Gurav     |   001443824     |
+|   Keerti Ojha     |   001050173     |
+| Priyanka Malpekar |   001302741     |
+
+***Lab Completion date*** : 29th January’ 21
+
+#### CLAAT Link
 
 ```
--In the Google Cloud Console, on the project selector page, select or create a Google Cloud project.
--Enabled the BigQuery, AI Platform, Cloud Source Repositories, Dataflow, and Datalab APIs.
+https://codelabs-preview.appspot.com/?file_id=1fINTQ8gSgDQrvLZDvxJ6tdww9snCitipkPd5u2VWWgA#4
 ```
-#### What is GCP
-Google Cloud Platform (GCP), offered by Google, is a suite of cloud computing services that runs on the same infrastructure that Google
+
+## About
+
+This lab demonstrates GCP services like Datalab, Dataflow and BigQuery for implementing data analysis and preprocessing for machine learning.
+
+## What is GCP
+
+![social-icon-google-cloud-1200-630](https://user-images.githubusercontent.com/71197800/109201378-c4b1e480-776f-11eb-97bb-63d40a561250.png)
+
+***Google Cloud Platform (GCP)***, offered by Google, is a suite of cloud computing services that runs on the same infrastructure that Google
 uses internally for its end-user products, such as Google Search, Gmail, file storage, and YouTube. Alongside a set of management tools,
 it provides a series of modular cloud services including computing, data storage, data analytics and machine learning.
 
 
+## Requirements
+
+1. In the **Google Cloud Console**, on the project selector page, select or create a Google Cloud project.
+2. Enabled the **BigQuery, AI Platform, Cloud Source Repositories, Dataflow, and Datalab APIs**.
+
 #### Dataset
 We used public Natality dataset to create an ML model to predict a baby's weight given a number of factors about the pregnancy and the baby's mother.
+Clone the below training-analyst-path on Datalab instance and use babyweight notebook for our data processing and model creation.
 ```
-We cloned the https://github.com/GoogleCloudPlatform/training-data-analyst github path and used training-data-analyst/blogs/babyweight/babyweight.ipynb 
-notebook for our data processing and model creation.
+https://github.com/GoogleCloudPlatform/training-data-analyst  
+training-data-analyst/blogs/babyweight/babyweight.ipynb 
 ```
 #### Launching Datalab
 
@@ -38,23 +63,23 @@ Click on the *Web Preview* (up-arrow button at top-left), select
 *port 8081*, and start using Datalab.
 We have to created a file format for data that will be stored in table
 ```
+#### Cloning Datalab Notebook
+In Datalab, create a new notebook by clicking the +Notebook icon in the upper left. The notebook opens in a new tab.
+Copy and paste the following command in the first cell of the new notebook. 
+```
+!git clone https://github.com/GoogleCloudPlatform/training-data-analyst
+```
+In Datalab, open the notebook training-data-analyst/blogs/babyweight/babyweight.ipynb.
 
 #### Perform preprocessing and Visualization
--Project ID and Bucket setup in notebook
+
+#### Project ID and Bucket setup in notebook
+1. In the first cell, set the variable PROJECT to your project ID.
 ```
 BUCKET = 'sunlit-adviser-303301-ml'
 PROJECT = 'sunlit-adviser-303301'
 REGION = 'us-central1'
 ```
--In the first cell, set the variable PROJECT to your project ID.
--Set the variable BUCKET to your bucket name in the first cell. For your bucket name, use your project ID as a prefix and my-bucket:
+2. Set the variable BUCKET to your bucket name in the first cell. For your bucket name, use your project ID as a prefix and my-bucket:
  project-ID-my-bucket
--Leave REGION as us-central1.
-
-#### Preprocessing using apache beam
-We modified the data such that we can simulate what is known if no ultrasound has been performed. If I didn't need preprocessing, 
-I could have used the web console. Also, I prefer to script it out rather than run queries on the user interface. 
-Therefore, I am using Cloud Dataflow for the preprocessing.
-
-
-
+3. Leave REGION as us-central1.
