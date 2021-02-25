@@ -92,6 +92,7 @@ sudo ./aws/install
 sudo apt install default-jre
 
 sudo apt install default-jdk
+
 ``
 
 7. Installing Pycharm in Ubuntu
