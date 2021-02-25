@@ -36,7 +36,7 @@ https://codelabs-preview.appspot.com/?file_id=183kIAkFW17W4uYY-511ylLhZttSelI7q3
 ## Lab5 - Snowflake  
 
 #### CLAAT Link
-
+https://codelabs-preview.appspot.com/?file_id=1Wt2R_j05JWwWXw0DRV1NSJA8mi0lIOv_Zmzme68r9is#0
 
 ## Lab6 - SEVIR Notebook 
 
