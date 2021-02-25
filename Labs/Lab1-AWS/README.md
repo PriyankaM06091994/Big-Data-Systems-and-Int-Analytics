@@ -84,7 +84,28 @@ Amazon DynamoDB full access
 Creating a virtual environment
 
 Installing required packages
-`pip3 install python-lambda`
-`pip3 install pandas`
+
+```
+pip3 install python-lambda
+pip3 install pandas
+
+```
+
+Initiating lambda deployment
+
+`lambda.py init`
+
+Three files will be generated viz. Config.yaml, events.json, service.py
+
+The service.py is the file we will be using. We can edit service.py with our Python code.
+
+Deploying lambda function
+
+`lambda.py deploy`
+
+Lambda function successfully deployed
+
+
+
 
 
