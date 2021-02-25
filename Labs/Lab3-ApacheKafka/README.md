@@ -1,20 +1,56 @@
-## Apache Kafka
+## Big Data Systems and Int Analytics
+
+## Labs
+
+#### Team Information
+
+| NAME              |     NUID        |
+|------------------ |-----------------|
+| Priyanka Malpekar |   001302741     |
+|   Tanvi Gurav     |   001306848     |
+|   Keerti Ojha     |   001050173     |
 
 
-#### What is Kafka?
-Apache Kafka is an event streaming platform used to collect, process, store, and integrate data at scale. It has numerous use cases including distributed logging, stream processing, data integration, and pub/sub messaging.
+## Lab 3 - Getting started with AWS + Lambda
 
-#### Events? What are they?
-An event is any type of action, incident, or change that's identified or recorded by software or applications. For example, a payment, a website click, or a temperature reading, along with a description of what happened.
+#### CLAAT Link
+https://codelabs-preview.appspot.com/?file_id=18gjiG4BLFSI-kqlX1QL7PYNOW0s6KEOY7O972kxY0ME#0
 
-#### Where do I use Kafka?
-Assume you have multiple source systems that generate data and this data has to be consumed by one or more target system(s). As the number of source and target systems increase, there is an increased complexity to map all source systems to their respective targets.
+### Lab Completion Date
 
-![kafka1](/kafka/img/kafka1.jpeg)
+5th February’21
 
-Therefore, maintaining the infrastructure and ensuring system resilience and reliability and data consistency is also a huge challenge. This is where Kafka can help.
+## About
 
-![kafka2](/kafka/img/kafka2.jpeg)
+**This lab demonstrates leveraging and implementing Kafka services for static data along with  real-timeTwitter streaming.**
+ 
+ ## Kafka
+
+**Apache Kafka** is a streaming message platform. It is a publish-subscribe based durable messaging system. Kafka is designed to be high performance, highly available, and redundant. It is used to collect, process, store, and integrate data at scale. A messaging system sends messages between processes, applications, and servers. 
+
+It’s basic use cases includes:
+- Stream Processing
+- Messaging
+- Website Activity Tracking
+- Log aggregation
+- Event Sourcing
+- Application health monitoring
+
+These are four main parts in a Kafka system:
+
+- **Broker:** Handles all requests from clients (producer, consumer and metadata) and keeps data replicated within the cluster. There can be one or more brokers in a cluster
+- **Zookeeper:** Keeps track of status of the Kafka clusters (brokers, topics, users)
+- **Producer:** Sends records to a broker
+- **Consumer:** Consumes batches of records from the broker
+
+
+## Requirements
+
+
+
+
+
+
 
 ### Getting Started
 
