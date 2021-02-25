@@ -7,7 +7,7 @@
 | NAME              |     NUID        |
 |------------------ |-----------------|
 | Priyanka Malpekar |   001302741     |
-|   Tanvi Gurav     |   001443824     |
+|   Tanvi Gurav     |   001306848     |
 |   Keerti Ojha     |   001050173     |
 
 
