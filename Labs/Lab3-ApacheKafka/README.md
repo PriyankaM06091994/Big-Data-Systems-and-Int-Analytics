@@ -6,9 +6,9 @@
 
 | NAME              |     NUID        |
 |------------------ |-----------------|
-| Priyanka Malpekar |   001302741     |
 |   Tanvi Gurav     |   001306848     |
 |   Keerti Ojha     |   001050173     |
+| Priyanka Malpekar |   001302741     |
 
 
 ## Lab 3 - Getting started with AWS + Lambda
