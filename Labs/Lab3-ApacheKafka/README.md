@@ -46,21 +46,54 @@ These are four main parts in a Kafka system:
 
 ## Requirements
 
+1. Installing Oracle Virtual VM Box
+
+2. Installing Ubuntu Guest Edition
+
+`sudo apt install build-essential dkms linux-headers-$(uname -r)`
+
+3. Installing Python on the Virtual VM
+
+`sudo apt install python3`
+
+4. Installing AWS CLI
+
+```
+sudo apt install curl
+
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+
+unzip awscliv2.zip
+
+sudo ./aws/install
+
+/usr/local/bin/aws --version
+
+```
+
+5. Connecting with AWS
+
+` aws configure`
+
+6. Installing Java jdk
+
+``
+sudo apt install default-jre
+
+sudo apt install default-jdk
+``
+
+7. Installing Pycharm in Ubuntu
 
 
-
-
-
-
-### Getting Started
+## Test Results
 
 #### Download & Configure Kafka
 - Download Apache Kafka from [here](https://kafka.apache.org/downloads)
-- Unzip contents of the downloaded file
 
-#### Python Libraries 
+-Install the required pyhton libraries
+`pip3 install kafka-python`
 
-- kafka-python - Install the Python client for the Apache Kafka by running `pip3 install kafka-python`. This library is designed to function much like the official java client & can help publish and receive messages from Python. Alternatively, you may use `confluent-kafka-python` as well, but for this exercise, we would be using `kafka-python`.
 
 #### Starting Zookeeper & Kafka Broker
 
@@ -73,36 +106,28 @@ Additionally, start the Kafka broker by running:
 bin/kafka-server-start.sh config/server.properties
 ```
 
-### Usage
+### Use Cases
 
-Once the Zookeeper and Kafka broker services are started, we can use the Python scripts on this repo.
+ Collecting real time sampled tweets from Twitter and publishing them to our Kafka Broker
 
 #### Using `producer.py`
-Run the script to publish events to the newly created topic `sample`
+Running the script **producer.py** for generating events
 
 #### Using `consumer.py`
-Run the script to consume the events published by the producer. This script should write messages to the console.
+Running the script consumer.py to consume the events published by the producer.
 
-## Level UP! :arrow_up:
+#### Using `twitter-stream.py`
+Using the twitter-stream.py script to  fetch tweets from Twitter's API in real-time.
 
-Let's work with a use-case that collects real-time sampled tweets from [Twitter](twitter.com) and publishes these to a Kafka Broker.
+Entering our bearer token in the twitter.py script under the BEARER_TOKEN parameter.
 
-### Requirements
+Tweets are published to the Kafka Broker.
 
-This requires the use of a Twitter Developer account. Apply for one [here](https://developer.twitter.com/en/apply-for-access). Once you have access to your developer account:
 
-- Create a new Project on the dev console
-- Generate your API keys and bearer tokens
+On running consumer.py again, we can see all the published events that are collected by the consumer.
 
-:warning: Never share your tokens or push them to GitHub
 
-### Usage
 
-Use the `twitter-stream.py` script to fetch tweets using Twitter's API in real-time. Ensure that you enter your bearer token in the script under the `BEARER_TOKEN` param. This script:
-- Fetches sampled tweets in real-time.
-  
-- Publishes these tweets to the Kafka Broker
 
-On running `consumer.py` - you should see all the published events, that are collected by the consumer. 
 
-ß
+
