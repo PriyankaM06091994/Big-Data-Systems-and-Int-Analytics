@@ -1,6 +1,8 @@
-# Team2_CSYE7245_Spring2021
+## Team2_CSYE7245_Spring2021
 
-This repository contains projects, lab work and assignments which covers,
+## Big Data Systems and Int Analytics
+
+This repository contains projects, lab work and assignments which covers:
 
 * Key data engineering tools and techniques that are used in the industry to build, scale and serve robust data & big data applications 
 * Components required to build reproducible and robust data engineering pipelines
@@ -17,3 +19,18 @@ auditability and reproducibility of Machine Learning and Data-driven application
 
 ## Instructor Information:
 [Prof. Sri Krishnamurthy](https://www.linkedin.com/in/srikrishnamurthy/)
+
+### Team Information
+
+| NAME              |     NUID        |
+|------------------ |-----------------|
+|   Tanvi Gurav     |   001306848     |
+|   Keerti Ojha     |   001050173     |
+| Priyanka Malpekar |   001302741     |
+
+
+## Every Assigment/Lab/Project has it's own ReadMe for detailed explanation.
+
+
+
+
