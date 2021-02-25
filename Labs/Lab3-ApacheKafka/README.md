@@ -126,18 +126,18 @@ bin/kafka-server-start.sh config/server.properties
 Running the script **producer.py** for generating events
 
 #### Using `consumer.py`
-Running the script consumer.py to consume the events published by the producer.
+Running the script **consumer.py** to consume the events published by the producer.
 
 ![SentCosumer](https://user-images.githubusercontent.com/59594174/109211939-ecf41000-777c-11eb-9718-8b9cea41d660.png)
 
 #### Using `twitter-stream.py`
-Using the twitter-stream.py script to  fetch tweets from Twitter's API in real-time.
+Using the **twitter-stream.py** script to  fetch tweets from Twitter's API in real-time.
 
-Entering our **bearer token** in the twitter.py script under the BEARER_TOKEN parameter.
+Entering our **bearer token** in the twitter.py script under the **BEARER_TOKEN** parameter.
 
 **Tweets are published to the Kafka Broker.**
 
-On running consumer.py again, we can see all the published events that are collected by the consumer.
+On running **consumer.py** again, we can see all the published events that are collected by the consumer.
 
 ![Tweets](https://user-images.githubusercontent.com/59594174/109211449-3f80fc80-777c-11eb-9811-7545aa019ba4.png)
 
