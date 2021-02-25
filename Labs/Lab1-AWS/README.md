@@ -47,8 +47,8 @@ https://codelabs-preview.appspot.com/?file_id=1S2tP87Y0Bd7wZ-3jqAKWdCUl9__4dgl7R
 **Boto3:** Boto3 is a Amazon Web Services (AWS) Software Development Kit (SDK) for Python which allows Python developers to write software that makes use of services like Amazon S3 and Amazon EC2
 
 ```
-pip3 install Faker
-pip3 install boto3
+- pip3 install Faker
+- pip3 install boto3
 ```
 
 ## Test Results
@@ -61,10 +61,10 @@ pip3 install boto3
 **Amazon S3** - a simple storage service is a scalable, high-speed, web-based cloud storage service. 
 
 
---> Ensure below mentioned rules while creating any S3 bucket:
-1. Block all public access
-2. Disable bucket versioning
-3. Disable encryption
+- Ensure below mentioned rules while creating any S3 bucket:
+- Block all public access
+- Disable bucket versioning
+- Disable encryption
 
 
 #### Contents
@@ -86,9 +86,9 @@ pip3 install boto3
 
 2. Creating an IAM role `lambda_basic_execution` with following privileges:
 
---> Lambda basic execution
---> Amazon S3 full access
---> Amazon DynamoDB full access
+- Lambda basic execution
+- Amazon S3 full access
+- Amazon DynamoDB full access
 
 3. Executing the ‘test-lambda function’
 
@@ -99,8 +99,8 @@ pip3 install boto3
 2. Installing required packages
 
 ```
-pip3 install python-lambda
-pip3 install pandas
+- pip3 install python-lambda
+- pip3 install pandas
 
 ```
 
@@ -112,7 +112,7 @@ Three files will be generated viz. Config.yaml, events.json, service.py
 
 The **service.py** is the file we will be using. We can edit service.py with our Python code.
 
-#### Deploying lambda function
+4. **Deploying lambda function**
 
 `lambda.py deploy`
 
