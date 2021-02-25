@@ -42,7 +42,7 @@ Amazon Web Services (AWS) provides computing resources and services that you can
 
 6. Installing all the required packages in this virtual env - `first-lambda`
 
-##### Faker: A python package to generate fake data
+##### Faker: ####  A python package to generate fake data
 
 Boto3: Boto3 is a Amazon Web Services (AWS) Software Development Kit (SDK) for Python which allows Python developers to write software that makes use of services like Amazon S3 and Amazon EC2
 
