@@ -1,4 +1,4 @@
-## Big Data Sys and Int Analytics
+## Big Data Systems and Int Analytics
 
 ## Labs
 
@@ -11,7 +11,7 @@
 | Priyanka Malpekar |   001302741     |
 
 
-### Lab 1 - Getting started with AWS + Lambda
+## Lab 1 - Getting started with AWS + Lambda
 
 #### CLAAT Link
 https://codelabs-preview.appspot.com/?file_id=1S2tP87Y0Bd7wZ-3jqAKWdCUl9__4dgl7RFbByM7HNS4#0
@@ -19,9 +19,9 @@ https://codelabs-preview.appspot.com/?file_id=1S2tP87Y0Bd7wZ-3jqAKWdCUl9__4dgl7R
 
 ### Getting Started with AWS
 
-### About
+## About
 
-This lab demonstrated the implementation of AWS CLI and other services like IAM, Amazon S3, comprehend and lambda.
+This lab demonstrates the implementation of AWS CLI and other services like IAM, Amazon S3, comprehend and lambda.
 
 ![AWS](https://user-images.githubusercontent.com/59594174/109194191-32a5de00-7767-11eb-916e-827815f25b96.png)
 
@@ -31,31 +31,30 @@ Amazon Web Services (AWS) provides computing resources and services that you can
 ![Services](https://user-images.githubusercontent.com/59594174/109194273-405b6380-7767-11eb-9d3b-2205df0addf6.png)
 
 
-#### Requirements
+## Requirements
 
 1. Creating an AWS account
 
 2. Configuring AWS CLI
 
-3. Configuring AWS on our system
+3. Configuring AWS on your system
 
 4. Getting started with IAM ( Identity Access Management )
 
 5. Creating a virtual environment
 
-6. Installing all the required packages in this virtual env - first-lambda
+6. Installing all the required packages in this virtual env - `first-lambda`
 
 Faker: A python package to generate fake data
 
 Boto3: Boto3 is a Amazon Web Services (AWS) Software Development Kit (SDK) for Python which allows Python developers to write software that makes use of services like Amazon S3 and Amazon EC2
-
 
 ```
 pip3 install Faker
 pip3 install boto3
 ```
 
-#### Test Results
+## Test Results
 
 #### Creating Amazon S3 Bucket
 
@@ -66,9 +65,9 @@ Amazon S3 - a simple storage service is a scalable, high-speed, web-based cloud 
 
 
 --> Ensure below mentioned rules while creating any S3 bucket:
-Block all public access
-Disable bucket versioning
-Disable encryption
+1. Block all public access
+2. Disable bucket versioning
+3. Disable encryption
 
 
 #### Contents
@@ -78,7 +77,7 @@ Disable encryption
 - `comprehend_demo.py` - Using AWS Comprehend to implement sentiment analysis
 
 
-### Lambda-serverless-py
+## Lambda-serverless-py
 
 AWS Lambda is a serverless compute service that runs your code in response to events. It lets you run code without provisioning or managing servers. Lambda runs your code only when needed and scales automatically, from a few requests per day to thousands per second. 
 
@@ -86,21 +85,21 @@ AWS Lambda is a serverless compute service that runs your code in response to ev
 ![lambda](https://user-images.githubusercontent.com/59594174/109194337-4fdaac80-7767-11eb-8598-060c8dd09af3.png)
 
 
-1. Creating a basic 'test-lambda function
+1. Creating a basic `test-lambda` function
 
-2. Creating an IAM role ‘lambda_basic_execution’ with following privileges:
+2. Creating an IAM role `lambda_basic_execution` with following privileges:
 
-Lambda basic execution
-Amazon S3 full access
-Amazon DynamoDB full access
+--> Lambda basic execution
+--> Amazon S3 full access
+--> Amazon DynamoDB full access
 
 3. Executing the ‘test-lambda function’
 
-4. Deploying Lambda function
+### Deploying Lambda function
 
-Creating a virtual environment
+1. Creating a virtual environment
 
-Installing required packages
+2. Installing required packages
 
 ```
 pip3 install python-lambda
@@ -108,7 +107,7 @@ pip3 install pandas
 
 ```
 
-Initiating lambda deployment
+3. Initiating lambda deployment
 
 `lambda.py init`
 
@@ -116,7 +115,7 @@ Three files will be generated viz. Config.yaml, events.json, service.py
 
 The service.py is the file we will be using. We can edit service.py with our Python code.
 
-Deploying lambda function
+#### Deploying lambda function
 
 `lambda.py deploy`
 
