@@ -11,7 +11,7 @@
 | Priyanka Malpekar |   001302741     |
 
 
-## Lab 3 - Kafka
+## Lab 3 - Apache Kafka
 
 #### CLAAT Link
 https://codelabs-preview.appspot.com/?file_id=18gjiG4BLFSI-kqlX1QL7PYNOW0s6KEOY7O972kxY0ME#0
@@ -29,7 +29,6 @@ https://codelabs-preview.appspot.com/?file_id=18gjiG4BLFSI-kqlX1QL7PYNOW0s6KEOY7
 **Apache Kafka** is a streaming message platform. It is a publish-subscribe based durable messaging system. Kafka is designed to be high performance, highly available, and redundant. It is used to collect, process, store, and integrate data at scale. A messaging system sends messages between processes, applications, and servers. 
 
 ![Kafka](https://user-images.githubusercontent.com/59594174/109211212-ed3fdb80-777b-11eb-806b-ec53a6f06118.png)
-
 It’s basic use cases includes:
 - Stream Processing
 - Messaging
@@ -47,10 +46,9 @@ These are four main parts in a Kafka system:
 
 ![Broker](https://user-images.githubusercontent.com/59594174/109211286-08125000-777c-11eb-99f7-1a3eaa5abce3.png)
 
-
 ## Requirements
 
-1. Installing Oracle Virtual VM Box
+1. Installing Oracle **Virtual VM Box**
 
 ![Oracle VM](https://user-images.githubusercontent.com/59594174/109211194-e618cd80-777b-11eb-8963-5d82188f2686.png)
 
@@ -60,7 +58,7 @@ These are four main parts in a Kafka system:
 - Downloading ubuntu iso file
 
 
-2. Installing Ubuntu Guest Edition
+2. Installing **Ubuntu** Guest Edition
 
 `sudo apt install build-essential dkms linux-headers-$(uname -r)`
 
@@ -109,18 +107,18 @@ sudo apt install default-jdk
 
 #### Starting Zookeeper & Kafka Broker
 
-Navigate to the directory where the downloaded files are unzipped and start the Zookeeper service:
+Navigate to the directory where the downloaded files are unzipped and start the **Zookeeper** service:
 ```
 bin/zookeeper-server-start.sh config/zookeeper.properties
 ```
-Additionally, start the Kafka broker by running:
+Additionally, start the **Kafka broker** by running:
 ```
 bin/kafka-server-start.sh config/server.properties
 ```
 
 ### Use Cases
 
- Collecting real time sampled tweets from Twitter and publishing them to our Kafka Broker
+ **Collecting real time sampled tweets from Twitter and publishing them to our Kafka Broker**
 
 #### Using `producer.py`
 Running the script **producer.py** for generating events
@@ -128,10 +126,12 @@ Running the script **producer.py** for generating events
 #### Using `consumer.py`
 Running the script consumer.py to consume the events published by the producer.
 
+![SentCosumer](https://user-images.githubusercontent.com/59594174/109211939-ecf41000-777c-11eb-9718-8b9cea41d660.png)
+
 #### Using `twitter-stream.py`
 Using the twitter-stream.py script to  fetch tweets from Twitter's API in real-time.
 
-Entering our bearer token in the twitter.py script under the BEARER_TOKEN parameter.
+Entering our **bearer token** in the twitter.py script under the BEARER_TOKEN parameter.
 
 Tweets are published to the Kafka Broker.
 
