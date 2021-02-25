@@ -11,7 +11,7 @@
 | Priyanka Malpekar |   001302741     |
 
 
-## Lab 3 - Getting started with AWS + Lambda
+## Lab 3 - Kafka
 
 #### CLAAT Link
 https://codelabs-preview.appspot.com/?file_id=18gjiG4BLFSI-kqlX1QL7PYNOW0s6KEOY7O972kxY0ME#0
