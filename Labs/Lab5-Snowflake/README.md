@@ -18,7 +18,7 @@ https://codelabs-preview.appspot.com/?file_id=1Wt2R_j05JWwWXw0DRV1NSJA8mi0lIOv_Z
 This lab demonstrates working with Snowflake data cloud, querying, data loading, caching, cloning, user roles and permissions and time travel concepts.
 
 ## What is Snowflake Data Cloud
-<img width="943" alt="144814496-8b0e8f3d-cd07-475f-8439-23eb034f0f97" src="https://user-images.githubusercontent.com/71197800/109202699-448c7e80-7771-11eb-801b-17823b94ad77.jpg">
+<img width="443" alt="144814496-8b0e8f3d-cd07-475f-8439-23eb034f0f97" src="https://user-images.githubusercontent.com/71197800/109202699-448c7e80-7771-11eb-801b-17823b94ad77.jpg">
 
 **Snowflake’s Data Cloud** is powered by an advanced data platform provided as Software-as-a-Service (SaaS). Snowflake enables data storage, processing, and analytic solutions 
 that are faster, easier to use, and far more flexible than traditional offerings.Snowflake combines a completely new SQL query engine with an innovative architecture natively 
