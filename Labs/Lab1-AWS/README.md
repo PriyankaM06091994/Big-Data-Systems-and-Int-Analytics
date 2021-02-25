@@ -16,9 +16,6 @@
 #### CLAAT Link
 https://codelabs-preview.appspot.com/?file_id=1S2tP87Y0Bd7wZ-3jqAKWdCUl9__4dgl7RFbByM7HNS4#0
 
-
-### Getting Started with AWS
-
 ## About
 
 This lab demonstrates the implementation of AWS CLI and other services like IAM, Amazon S3, comprehend and lambda.
