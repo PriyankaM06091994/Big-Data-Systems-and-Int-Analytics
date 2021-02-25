@@ -28,6 +28,8 @@ https://codelabs-preview.appspot.com/?file_id=18gjiG4BLFSI-kqlX1QL7PYNOW0s6KEOY7
 
 **Apache Kafka** is a streaming message platform. It is a publish-subscribe based durable messaging system. Kafka is designed to be high performance, highly available, and redundant. It is used to collect, process, store, and integrate data at scale. A messaging system sends messages between processes, applications, and servers. 
 
+![Kafka](https://user-images.githubusercontent.com/59594174/109211212-ed3fdb80-777b-11eb-806b-ec53a6f06118.png)
+
 It’s basic use cases includes:
 - Stream Processing
 - Messaging
@@ -43,10 +45,20 @@ These are four main parts in a Kafka system:
 - **Producer:** Sends records to a broker
 - **Consumer:** Consumes batches of records from the broker
 
+![Broker](https://user-images.githubusercontent.com/59594174/109211286-08125000-777c-11eb-99f7-1a3eaa5abce3.png)
+
 
 ## Requirements
 
 1. Installing Oracle Virtual VM Box
+
+![Oracle VM](https://user-images.githubusercontent.com/59594174/109211194-e618cd80-777b-11eb-8963-5d82188f2686.png)
+
+**Specifications**
+- Minimum 4 GB RAM
+- Minimum 25 GB Hard Drive
+- Downloading ubuntu iso file
+
 
 2. Installing Ubuntu Guest Edition
 
@@ -126,7 +138,7 @@ Tweets are published to the Kafka Broker.
 
 On running consumer.py again, we can see all the published events that are collected by the consumer.
 
-
+![Tweets](https://user-images.githubusercontent.com/59594174/109211449-3f80fc80-777c-11eb-9811-7545aa019ba4.png)
 
 
 
