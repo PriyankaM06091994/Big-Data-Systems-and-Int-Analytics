@@ -20,6 +20,9 @@ auditability and reproducibility of Machine Learning and Data-driven application
 ## Instructor Information:
 [Prof. Sri Krishnamurthy](https://www.linkedin.com/in/srikrishnamurthy/)
 
+## Teaching Assistant
+[Dileep Hola](https://www.linkedin.com/in/dileepholla/)
+
 ### Team Information
 
 | NAME              |     NUID        |
