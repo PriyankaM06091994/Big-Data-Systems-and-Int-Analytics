@@ -23,7 +23,7 @@ auditability and reproducibility of Machine Learning and Data-driven application
 ## Teaching Assistant
 [Dileep Hola](https://www.linkedin.com/in/dileepholla/)
 
-### Team Information
+## Team Information
 
 | NAME              |     NUID        |
 |------------------ |-----------------|
