@@ -104,22 +104,24 @@ SevirStormData
 
 4. Connecting Snowflake Database ‘Sevir’ with ‘Sql Alchemy’.
 
-Using package ‘snowflake-sqlalchemy’ for querying and accessing data from Snowflake database.
+Using package **‘snowflake-sqlalchemy’** for querying and accessing data from Snowflake database.
 
-5. Accessing data from snowflake using ‘snowflake connector’ 
+5. Accessing data from snowflake using **‘snowflake connector’**
 
 6. Installing Apache Superset on Oracle Virtual Machine
 
-Enter the URL in your Browser:- http://127.0.0.1:8088/ to access the application
+**Enter the URL in your Browser:- http://127.0.0.1:8088/ to access the application**
 
 User: admin123
 Password: admin
 
 7. Connecting snowflake with Apache Superset for visualization
 
-8. Automating tasks in Snowflake
+## Airflow
 
-Connecting SQL ALchemy with Snowflake
-Joining Sevir and Storm Data
+Automating tasks in Snowflake using **Airflow**
+
+1. Connecting SQL ALchemy with Snowflake
+2. Joining Sevir and Storm Data
 
 
