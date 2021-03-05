@@ -78,9 +78,43 @@ QuickSight lets you easily create and publish interactive BI dashboards that inc
 - Showing datewise, idwise, count of image types
 
 2. Combined Storm Event Details 2018 and Storm Events Fatality 2018 dashboard
-- Sum of deaths by year and state
-- Sum of deaths by Event Type
-- Sum of deaths by Sex and County
-- Damaged Property by state
 
 ```
+
+## Snowflake
+
+1. Loading sample sevir and storm data in Snowflake database.
+
+2. Querying the database and gaining insights from the database viz:
+
+Top 5 states with maximum deaths
+Top 3 reasons of Death
+Deaths By Gender
+
+3. Creating relevant Views in the database to combine Sevir and Storm data.
+
+Storm_events_2019
+Storm_events_2018
+SevirStormData
+
+4. Connecting Snowflake Database ‘Sevir’ with ‘Sql Alchemy’.
+
+Using package ‘snowflake-sqlalchemy’ for querying and accessing data from Snowflake database.
+
+5. Accessing data from snowflake using ‘snowflake connector’ 
+
+6. Installing Apache Superset on Oracle Virtual Machine
+
+Enter the URL in your Browser:- http://127.0.0.1:8088/ to access the application
+
+User: admin123
+Password: admin
+
+7. Connecting snowflake with Apache Superset for visualization
+
+8. Automating tasks in Snowflake
+
+Connecting SQL ALchemy with Snowflake
+Joining Sevir and Storm Data
+
+
