@@ -188,6 +188,8 @@ https://www.streamlit.io/gallery
 
 ![image](https://user-images.githubusercontent.com/59846364/110069262-6d9aa980-7d45-11eb-81ec-6ee8a3f5afb5.png)
 
+![image](https://user-images.githubusercontent.com/59846364/110069343-96bb3a00-7d45-11eb-8dce-9b4f9c5446d3.png)
+
 
 ## Dashboards
 
