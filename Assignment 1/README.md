@@ -21,7 +21,7 @@
 **Implementing a data pipeline of SEVIR and Storm Events using Amazon Web Services S3 bucket for storage,
 Amazon Glue for ETL and Amazon Quicksight for Visualization and Dashboard creation.**
 
-![AWS](https://user-images.githubusercontent.com/59594174/109194191-32a5de00-7767-11eb-916e-827815f25b96.png)
+![AWS_Architecture](https://user-images.githubusercontent.com/59594174/110067698-3ecf0400-7d42-11eb-8111-ef37d95e4114.PNG)
 
 ## Requirements
 
