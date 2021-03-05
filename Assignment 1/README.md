@@ -86,6 +86,36 @@ QuickSight lets you easily create and publish interactive BI dashboards that inc
 
 ```
 
+## GCP
+
+## SEVIR Data Pipelining Using Google Cloud Platform
+
+We have implemented a data pipeline using different GCP components, Google Cloud Storage, Datalab, Apache Beam, Dataflow, Google Bigquery and Google Data Studio. The following is the data architecture for implementing a pipeline on Google Cloud Platform:
+
+![GCP-Architecture-Diagram](GCP-Architecture-Diagram.png)
+
+
+## Steps to Regenerate GCP Architecture
+
+1. Download [SEVIR Metadata (CATALOG)](https://s3.console.aws.amazon.com/s3/object/sevir?region=us-west-2&prefix=CATALOG.csv) and Storm Data for [2018](https://www1.ncdc.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2018_c20201216.csv.gz) and [2019](https://www1.ncdc.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2019_c20210223.csv.gz)
+2. Create a new Project, and enable the `BigQuery`, `AI Platform`, `Cloud Source Repositories`, `Dataflow`, and `Datalab APIs`
+3. Create a GCP Bucket and a Bigquery Dataset on your GCP Account.
+4. Upload the downloaded CSV files to the created bucket
+5. Using Cloud Shell:
+    * Project Configuration on Cloud Shell: `gcloud config set project <PROJECT_ID>`
+    * Creating Datalab: `datalab create --zone <ZONE_NAME> <DATALAB_NAME>`
+    * Launch Datalab `http://localhost:8081/`
+6. Upload file `Sevir-GCP-pipeline.ipynb` to Datalab
+7. Replace the Project_ID, bucket path to the CSV files, BigQuery dataset name and run the notebook
+8. Navigate to the Datalab Dashboard and monitor the pipeline
+9. Validate if the tables are created and data is loaded in the mentioned dataset
+
+#### Lesson Learned
+1. Learned to set up a project in Google Cloud and instantiate DataLab from Cloud shell editor using shell commands.
+2. Data exploration in Datalab and creating Apache Beam Pipeline using Google Dataflow
+3. Drawing visual insights using Google Data Studio
+
+
 ## Snowflake
 
 ![Snowflake](https://user-images.githubusercontent.com/59594174/110068095-f6fcac80-7d42-11eb-9218-497c194573da.PNG)
