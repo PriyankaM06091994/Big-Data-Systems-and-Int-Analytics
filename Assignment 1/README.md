@@ -156,4 +156,19 @@ Automating tasks in Snowflake using **Airflow**
 1. Connecting SQL ALchemy with Snowflake
 2. Joining Sevir and Storm Data
 
+![pasted image 0](https://user-images.githubusercontent.com/59594174/110068774-69ba5780-7d44-11eb-8f05-5dc41b5e0074.png)
 
+## Dashboards
+
+### AWS Dashboard
+
+![Details-Fatality-2018](https://user-images.githubusercontent.com/59594174/110068829-88b8e980-7d44-11eb-8763-35b26129fb3d.png)
+
+![Sevir_Details_2018](https://user-images.githubusercontent.com/59594174/110068840-8fdff780-7d44-11eb-9f4e-1ec0e1f3d5be.png)
+
+### GCP Dashboard
+
+
+### Apache Superset Dashboard
+
+![pasted image 0 (1)](https://user-images.githubusercontent.com/59594174/110068796-78a10a00-7d44-11eb-8c71-80821c1c0934.png)
