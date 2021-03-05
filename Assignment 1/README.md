@@ -92,7 +92,7 @@ QuickSight lets you easily create and publish interactive BI dashboards that inc
 
 We have implemented a data pipeline using different GCP components, Google Cloud Storage, Datalab, Apache Beam, Dataflow, Google Bigquery and Google Data Studio. The following is the data architecture for implementing a pipeline on Google Cloud Platform:
 
-![GCP-Architecture-Diagram](GCP-Architecture-Diagram.png)
+![GCP-Architecture-Diagram](https://user-images.githubusercontent.com/59594174/110068476-cec17d80-7d43-11eb-9bec-c541d6bfdb23.png)
 
 
 ## Steps to Regenerate GCP Architecture
