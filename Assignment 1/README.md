@@ -16,6 +16,8 @@
 
 #### CLAAT Link
 
+https://codelabs-preview.appspot.com/?file_id=1FmkLOCi61pkc1FG695ZvLO8oxSu-EfqBIaazIRPfew0#0
+
 ## About
 
 **Implementing a data pipeline of SEVIR and Storm Events using Amazon Web Services S3 bucket for storage,
@@ -157,6 +159,33 @@ Automating tasks in Snowflake using **Airflow**
 2. Joining Sevir and Storm Data
 
 ![pasted image 0](https://user-images.githubusercontent.com/59594174/110068774-69ba5780-7d44-11eb-8f05-5dc41b5e0074.png)
+
+## Streamlit
+
+## SEVIR Data Pipelining Using Google Cloud Platform
+
+We have implemented a Streamlit app to explore SEVIR Image data and Storm fatalites data
+
+## Steps to Regenerate GCP Architecture
+
+1. Download [SEVIR Metadata (CATALOG)](https://s3.console.aws.amazon.com/s3/object/sevir?region=us-west-2&prefix=CATALOG.csv) and any of the Storm Data from [NOAA Site](https://www1.ncdc.noaa.gov/pub/data/swdi/stormevents/csvfiles/)
+2. Create a new Pycharm project and replicate `sevir-viz.py` 
+3. Install the following packages/libraries:
+```
+    pip install streamlit
+    pip install h5py
+    pip install s3fs
+    pip install pandas
+    pip install matplotlib
+```
+4. Start the app by running `streamlit run sevir-viz.py` where `sevir-viz.py` is your Python script.
+
+## References & Citation
+https://github.com/streamlit/demo-uber-nyc-pickups
+https://github.com/streamlit/demo-self-driving
+https://docs.streamlit.io/en/stable/tutorial/create_a_data_explorer_app.html
+https://www.streamlit.io/gallery
+
 
 ## Dashboards
 
