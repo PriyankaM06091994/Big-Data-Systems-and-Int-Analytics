@@ -168,6 +168,7 @@ Automating tasks in Snowflake using **Airflow**
 
 ### GCP Dashboard
 
+![DeathAnalysisByState](https://user-images.githubusercontent.com/59594174/110068964-c9b0fe00-7d44-11eb-9c03-1f8660eca010.PNG)
 
 ### Apache Superset Dashboard
 
