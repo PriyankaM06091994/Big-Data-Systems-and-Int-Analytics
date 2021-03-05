@@ -9,7 +9,7 @@
 |   Tanvi Gurav     |   001443824     |
 |   Keerti Ojha     |   001050173     |
 | Priyanka Malpekar |   001302741     |
-
+ Submission Date: 4th March'21
 
 #### Data Pipeline in AWS
 
@@ -78,6 +78,10 @@ QuickSight lets you easily create and publish interactive BI dashboards that inc
 - Showing datewise, idwise, count of image types
 
 2. Combined Storm Event Details 2018 and Storm Events Fatality 2018 dashboard
+- Sum of deaths by year and state
+- Sum of deaths by Event Type
+- Sum of deaths by Sex and County
+- Damaged Property by state
 
 ```
 
