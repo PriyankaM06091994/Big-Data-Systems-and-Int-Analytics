@@ -88,6 +88,8 @@ QuickSight lets you easily create and publish interactive BI dashboards that inc
 
 ## Snowflake
 
+![Snowflake](https://user-images.githubusercontent.com/59594174/110068095-f6fcac80-7d42-11eb-9218-497c194573da.PNG)
+
 1. Loading sample sevir and storm data in Snowflake database.
 
 2. Querying the database and gaining insights from the database viz:
