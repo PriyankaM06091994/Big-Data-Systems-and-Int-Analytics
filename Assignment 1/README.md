@@ -186,6 +186,8 @@ https://github.com/streamlit/demo-self-driving
 https://docs.streamlit.io/en/stable/tutorial/create_a_data_explorer_app.html
 https://www.streamlit.io/gallery
 
+![image](https://user-images.githubusercontent.com/59846364/110069262-6d9aa980-7d45-11eb-81ec-6ee8a3f5afb5.png)
+
 
 ## Dashboards
 
