@@ -73,7 +73,7 @@ airflow scheduler
 
 Once both are running - you should be able to access the Airflow UI by visiting http://127.0.0.1:8080/home on your browser.
 
-8. To kill the Airflow webserver daemon:
+8. To kill the Airflow webserver daemon - First list the running processes on port 8080
 
 ```
 lsof -i tcp:8080  
@@ -83,7 +83,7 @@ Kill the process by running `kill <PID>`
 
 9. Create folder dags inside AIRFLOW_HOME
 
-Place the python file under the ‘dags’ folder.
+10. Place the python file under the ‘dags’ folder.
 
 - Dags can be scheduled and run every minute or hourly/daily
 - You can also pause/unpause the dag depending on the requirement
