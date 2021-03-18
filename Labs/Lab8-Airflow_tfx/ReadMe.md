@@ -1,11 +1,25 @@
-## Airflow TFX
+## Big Data Systems and Int Analytics
 
-From https://www.tensorflow.org/tfx/tutorials/tfx/airflow_workshop <br>
-Codebase available here: https://github.com/tensorflow/tfx/tree/master/tfx/examples/airflow_workshop
+## Lab8 - Airflow_tfx
+
+#### Team Information
+
+| NAME              |     NUID        |
+|------------------ |-----------------|
+|   Tanvi Gurav     |   001443824     |
+|   Keerti Ojha     |   001050173     |
+| Priyanka Malpekar |   001302741     |
+
+#### CLAAT Link
+```
+https://codelabs-preview.appspot.com/?file_id=1D1P62udG1BmrV2hgDzfJeGB2yLcQzIf_AKevBEd1nhs#0
+```
+
+## Airflow
 
 This lab demonstrates the functionalities of Airflow to programmatically automate, author, schedule and monitor workflows. 
 
-###pic
+![pasted image 0 (1)](https://user-images.githubusercontent.com/59594174/111711315-c9733100-8821-11eb-8e2f-afdcf4ee900d.png)
 
 - Airflow is a platform to programmatically automate, schedule and monitor workflows. 
 - In Airflow, a DAG – or a Directed Acyclic Graph – is a collection of all the tasks you want to run, organized in a way that reflects their relationships and   dependencies. 
