@@ -4,7 +4,7 @@ This lab helps us understand how Streamlit ( an open-source Python library) can 
 
 ###pic
 
-Streamlit is an open-source Python library that makes it easy to create and share beautiful, custom web applications for machine learning and data science.
+**Streamlit** is an open-source Python library that makes it easy to create and share beautiful, custom web applications for machine learning and data science.
 
 Advantages:
 
@@ -18,13 +18,9 @@ Advantages:
 
 ### Experimental Setup
 
-### Prerequisites:
-
 ```
 pip install streamlit
 ```
-
-
 
 ### Running the app
 
