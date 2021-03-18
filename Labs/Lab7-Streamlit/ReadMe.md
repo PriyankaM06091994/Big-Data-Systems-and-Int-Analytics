@@ -2,11 +2,11 @@
 
 This lab helps us understand how Streamlit ( an open-source Python library) can be used to build and create custom web applications for machine learning and data science.
 
-###pic
+![pasted image 0](https://user-images.githubusercontent.com/59594174/111710300-c4ad7d80-881f-11eb-8dfc-348a88df4288.png)
 
 **Streamlit** is an open-source Python library that makes it easy to create and share beautiful, custom web applications for machine learning and data science.
 
-Advantages:
+### Advantages:
 
 - Free and Open-Source
 - Less coding and easy to build beautiful web application in less time
