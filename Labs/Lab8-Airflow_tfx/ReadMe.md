@@ -11,9 +11,9 @@
 | Priyanka Malpekar |   001302741     |
 
 #### CLAAT Link
-```
+
 https://codelabs-preview.appspot.com/?file_id=1D1P62udG1BmrV2hgDzfJeGB2yLcQzIf_AKevBEd1nhs#0
-```
+
 
 ## Airflow
 
@@ -88,3 +88,6 @@ Place the python file under the ‘dags’ folder.
 - Dags can be scheduled and run every minute or hourly/daily
 - You can also pause/unpause the dag depending on the requirement
 
+## Use Case - Taxi Pipeline
+
+![pasted image 0 (2)](https://user-images.githubusercontent.com/59594174/111711458-1e16ac00-8822-11eb-8643-50c82341f0d4.png)
