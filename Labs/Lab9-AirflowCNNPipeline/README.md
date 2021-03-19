@@ -1,6 +1,6 @@
 ## Big Data Systems and Int Analytics
 
-#### Team Information
+### Team Information
 
 | NAME              |     NUID        |
 |------------------ |-----------------|
