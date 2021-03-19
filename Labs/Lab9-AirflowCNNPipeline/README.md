@@ -98,7 +98,6 @@ uvicorn main:app --reload
 
 API Documentation can be viewed by visiting 127.0.0.1:8000/docs
 
-### Inference
 
 #### Using the Streamlit App
 
@@ -109,6 +108,6 @@ Start the server by running `streamlit run app.py` from your terminal and access
 
 #### References
 
-https://airflow.apache.org/docs/apache-airflow/stable/index.html
-https://medium.com/@dustinstansbury/understanding-apache-airflows-key-concepts-a96efed52b1a
-https://towardsdatascience.com/getting-started-with-airflow-locally-and-remotely-d068df7fcb4
+- https://airflow.apache.org/docs/apache-airflow/stable/index.html
+- https://medium.com/@dustinstansbury/understanding-apache-airflows-key-concepts-a96efed52b1a
+- https://towardsdatascience.com/getting-started-with-airflow-locally-and-remotely-d068df7fcb4
