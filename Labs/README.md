@@ -44,6 +44,26 @@ https://codelabs-preview.appspot.com/?file_id=1Wt2R_j05JWwWXw0DRV1NSJA8mi0lIOv_Z
 https://codelabs-preview.appspot.com/?file_id=1vNgqhgxmw1UFJa9jKwn07PDTA4H4dlGgdeN5dnIyTXY#0
 
 
+## Lab7 - Streamlit
+
+#### CLAAT Link
+https://codelabs-preview.appspot.com/?file_id=180jzp5z7PmXJdTpQaghd89DgYK-2Ld3erwoS6xBucg4#0
+
+## Lab8 - Airflow_TFX
+
+#### CLAAT Link
+https://codelabs-preview.appspot.com/?file_id=1D1P62udG1BmrV2hgDzfJeGB2yLcQzIf_AKevBEd1nhs#0
+
+## Lab9 - AirflowCNNPipeline
+
+#### CLAAT Link
+https://codelabs-preview.appspot.com/?file_id=1CnjVfvr_sCzdwPA1lF4MeIoD4AmcN5XVtOfdC7jY0M0#0
+
+## Lab10 - FastAPI
+
+#### CLAAT Link
+https://codelabs-preview.appspot.com/?file_id=1hPD8rfvHgngYOzO6de55sVfP1zi_Herdg5M6y83JCRM#0
+
 
 
 
