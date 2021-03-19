@@ -44,6 +44,10 @@ pip install streamlit
 Start the app by running `streamlit run demo.py`.
 
 
+![Sss](https://user-images.githubusercontent.com/59594174/111717392-558b5580-882e-11eb-8c46-57893b13b4fb.png)
+
+
+
 ### References
 
 - https://discuss.streamlit.io/t/streamlit-cheat-sheet/4912
