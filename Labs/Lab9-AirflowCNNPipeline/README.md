@@ -16,8 +16,7 @@ https://codelabs-preview.appspot.com/?file_id=1CnjVfvr_sCzdwPA1lF4MeIoD4AmcN5XVt
 
 ## About
 
-**This lab demonstrates how to create a training pipeline that aims to identify the type of Acne-Rosacea, by training a model with images scraped from dermnet.com with a confidence score. The front-end application uses Streamlit to predict using the trained model.
-**
+**This lab demonstrates how to create a training pipeline that aims to identify the type of Acne-Rosacea, by training a model with images scraped from dermnet.com with a confidence score. The front-end application uses Streamlit to predict using the trained model.**
 
 <img src="/img/approach.jpg" alt="approach" width="200"/>
 
@@ -32,7 +31,7 @@ https://codelabs-preview.appspot.com/?file_id=1CnjVfvr_sCzdwPA1lF4MeIoD4AmcN5XVt
 
 ### Requirements
 
-** Note: This tutorial is performed using Python 3.7.9**
+**Note: This tutorial is performed using Python 3.7.9**
 
 1. Install the packages/libraries by running the `requirements.txt` 
 ```
