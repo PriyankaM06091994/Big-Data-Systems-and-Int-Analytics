@@ -1,3 +1,19 @@
+## Big Data Systems and Int Analytics
+
+## Lab 10 - Fast API
+
+#### Team Information
+
+| NAME              |     NUID        |
+|------------------ |-----------------|
+|   Tanvi Gurav     |   001443824     |
+|   Keerti Ojha     |   001050173     |
+| Priyanka Malpekar |   001302741     |
+
+#### CLAAT Link
+
+https://codelabs-preview.appspot.com/?file_id=1hPD8rfvHgngYOzO6de55sVfP1zi_Herdg5M6y83JCRM#0
+
 ### FastAPI
 
 #### What is FastAPI? 
