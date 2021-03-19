@@ -18,7 +18,7 @@ https://codelabs-preview.appspot.com/?file_id=1CnjVfvr_sCzdwPA1lF4MeIoD4AmcN5XVt
 
 **This lab demonstrates how to create a training pipeline that aims to identify the type of Acne-Rosacea, by training a model with images scraped from dermnet.com with a confidence score. The front-end application uses Streamlit to predict using the trained model.**
 
-<img src="/img/approach.jpg" alt="approach" width="200"/>
+![Datapipeline](https://user-images.githubusercontent.com/59594174/111717031-a77fab80-882d-11eb-8339-860b06ca5076.png)
 
 
 #### Airflow Tasks
@@ -104,6 +104,12 @@ API Documentation can be viewed by visiting 127.0.0.1:8000/docs
 We can validate our retrained model by running the streamlit app which calculates the confidence score for its acne condition for each new uploaded images based on the retrained model with scraped images. 
 
 Start the server by running `streamlit run app.py` from your terminal and access the application from http://localhost:8501
+
+![Streamlit1](https://user-images.githubusercontent.com/59594174/111716965-7a32fd80-882d-11eb-952e-b53ad58517e7.png)
+
+
+
+![Streamlit2](https://user-images.githubusercontent.com/59594174/111716979-815a0b80-882d-11eb-94c5-695a8ea3fd95.png)
 
 
 ### References
