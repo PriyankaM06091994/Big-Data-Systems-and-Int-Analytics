@@ -99,14 +99,14 @@ uvicorn main:app --reload
 API Documentation can be viewed by visiting 127.0.0.1:8000/docs
 
 
-#### Using the Streamlit App
+### Using the Streamlit App
 
 We can validate our retrained model by running the streamlit app which calculates the confidence score for its acne condition for each new uploaded images based on the retrained model with scraped images. 
 
 Start the server by running `streamlit run app.py` from your terminal and access the application from http://localhost:8501
 
 
-#### References
+### References
 
 - https://airflow.apache.org/docs/apache-airflow/stable/index.html
 - https://medium.com/@dustinstansbury/understanding-apache-airflows-key-concepts-a96efed52b1a
