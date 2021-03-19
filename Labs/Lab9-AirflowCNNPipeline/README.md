@@ -34,29 +34,27 @@ https://codelabs-preview.appspot.com/?file_id=1CnjVfvr_sCzdwPA1lF4MeIoD4AmcN5XVt
 
 ** Note: This tutorial is performed using Python 3.7.9**
 
-1. Install the dependencies as outlined in the `requirements.txt` by running
+1. Install the packages/libraries by running the `requirements.txt` 
 ```
 pip install -r requirements.txt
 ```
 
-2. Update S3 Bucket details
-
-Provide the S3 bucket name in the `bucket_name` parameter in `s3_uploader/upload_models.py`
+2. Update S3 Bucket details by adding the S3 bucket name (`bucket_name` parameter) in `s3_uploader/upload_models.py`
 
 
-3. Once Airflow is installed, configure the same by running:
+3. Once Airflow is successfully installed, proceed with the configuration by executing the following commands
 
 ```
-# Use your present working directory as
-# the airflow home
+# Setting the current working directory as airflow home
 export AIRFLOW_HOME=~(pwd)
 
-# export Python Path to allow use
-# of custom modules by Airflow
+# Export Python Path to allow use
 export PYTHONPATH="${PYTHONPATH}:${AIRFLOW_HOME}"
 
-# initialize the database
+# Initialization of the database
 airflow db init
+
+# User Creation
 
 airflow users create \
     --username admin \
@@ -66,26 +64,24 @@ airflow users create \
     --email example@example.com
 ```
 
-4. Using Airflow
+4. Start the Airflow server in daemon & Airflow Scheduler
 
-Start the Airflow server in daemon & Airflow Scheduler
 ```
 airflow webserver -D
 
 airflow scheduler
 ```
 
-Access the Airflow console by visiting http://127.0.0.1:8080/home on your browser.
+Access the Airflow console from http://127.0.0.1:8080/home
 
-To kill the Airflow webserver daemon:
+Incase if of any issues or to restart the webserver, first, kill the Airflow webserver daemon using `kill <pid>` where pid can be obtained from below command
 ```
 lsof -i tcp:8080  
 ```
-Kill the process by running `kill <PID>` - in this case, it would be `kill 13280`
 
 ### Running the Pipeline
 
-Login to Airflow on your browser and turn on the `CNN-Training-Pipeline` DAG from the UI. Start the pipeline by choosing the DAG and clicking on Run.
+Once Airflow is configured, trigger the `CNN-Training-Pipeline` DAG from console and monitor the same
 
 
 ### API Usage
@@ -107,11 +103,10 @@ API Documentation can be viewed by visiting 127.0.0.1:8000/docs
 
 #### Using the Streamlit App
 
-We can validate our retrained model by running the streamlit app which calculates the confidence score for its acne condition for each new uploaded images based on the retrained model with scraped images
+We can validate our retrained model by running the streamlit app which calculates the confidence score for its acne condition for each new uploaded images based on the retrained model with scraped images. 
 
-The Streamlit app can be used for Inference. Start the server by running `streamlit run app.py` from your terminal. Open the app by visiting http://localhost:8501 on your browser.
+Start the server by running `streamlit run app.py` from your terminal and access the application from http://localhost:8501
 
-You may use the `predict.py` script for inference. Provide the path to your image and run the script.
 
 #### References
 
