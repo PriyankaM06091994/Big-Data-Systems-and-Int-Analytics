@@ -19,9 +19,9 @@ https://codelabs-preview.appspot.com/?file_id=1jRDq1PIwklosCZ56j8xRczTw_2W8J8OCJ
 
 ## About
 
-**The aim of this assignment is to build four fully functional pipelines from using text analytics API to perform sentiment analysis, getting the labelled data and building machine learning models using transfer learnings, using Flask to then deploy the model and finally storing the results in a Docker container.**
+The aim of this assignment is to build four fully functional pipelines from using text analytics API to perform sentiment analysis, getting the labelled data and building machine learning models using transfer learnings, using Flask to then deploy the model and finally storing the results in a Docker container.
 
-### Dataset
+## Dataset
 
 **Edgar Datasets**
 
