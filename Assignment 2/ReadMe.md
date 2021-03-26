@@ -31,7 +31,7 @@ It consisted of financial data of  50 companies.
 
 ## Project Structure
 
-
+```
 Annotation Pipeline1/
 ├── call_transcripts/
 │   ├── <Insert transcript files here>
@@ -41,7 +41,7 @@ Annotation Pipeline1/
 ├── labeled.csv
 ├── requirements.txt
 └── temp.json
- 
+ ```
 
 
 ## Annotation Pipeline 1
