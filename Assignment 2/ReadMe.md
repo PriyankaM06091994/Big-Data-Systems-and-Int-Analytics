@@ -61,12 +61,12 @@ Also, the labeled dataset output in csv format looks like this:
 
 The Annotation pipeline is automated in Luigi. Luigi - a python package helps us build complex pipelines on batch jobs.
 
-Tasks automated in Luigi:
-Loading scraped data in S3 bucket
-Data Pre-Processing
-Loading the clean data in S3 bucket
-Performing Sentiment Analysis using IBM-Watson Text API
-Loading the labeled data back in S3 bucket
+- Tasks automated in Luigi:
+- Loading scraped data in S3 bucket
+- Data Pre-Processing
+- Loading the clean data in S3 bucket
+- Performing Sentiment Analysis using IBM-Watson Text API
+- Loading the labeled data back in S3 bucket
 
 ![Luigi1png](https://user-images.githubusercontent.com/59594174/112587857-bbe71980-8dd4-11eb-84e2-44453eb6d99d.png)
 
