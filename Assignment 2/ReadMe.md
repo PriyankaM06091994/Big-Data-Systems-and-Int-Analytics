@@ -10,7 +10,7 @@
 |   Keerti Ojha     |   001050173     |
 | Priyanka Malpekar |   001302741     |
  
- **Submission Date: 26th March'21
+ **Submission Date**: 26th March'21
 
 #### Data Pipeline in AWS
 
