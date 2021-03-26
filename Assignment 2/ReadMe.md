@@ -104,10 +104,10 @@ We are automating the training pipeline using SKLearn - Python package scikit-le
 
 Tasks automated using SKLearn:
 
-1.Reading Labelled Data
-2.Training the Model
-3.Saving the Model
-4.Making Predictions
+- Reading Labelled Data
+- Training the Model
+- Saving the Model
+- Making Predictions
 
 ## Pipeline 3: Microservices
 
