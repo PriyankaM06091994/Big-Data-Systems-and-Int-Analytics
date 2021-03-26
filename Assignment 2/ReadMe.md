@@ -193,7 +193,6 @@ Taking the deployed model & json file as the input and dockerizing it in a flask
 
 ## Pipeline 4: Inference Pipeline
 
-
 ![Pipeline4](https://user-images.githubusercontent.com/59594174/112607109-36bd2e00-8def-11eb-8019-39af7fd37742.png)
 
 Dockerized Flask App - running the Generated Model to predict sentiments
@@ -202,14 +201,30 @@ Dockerized Flask App - running the Generated Model to predict sentiments
 
 ## Docker Dashboard
 
-
 ![pasted image 0](https://user-images.githubusercontent.com/59594174/112645724-2d4aba80-8e1d-11eb-8b51-0d40a74568d9.png)
 
 
+## Steps to run our Assignment:
 
+1. IBM Watson Natural Language Understanding API :
 
+Step 1 : Create an Access Key for the service from IBM Watson console. 
+         Navigate to the link here: https://cloud.ibm.com/apidocs/natural-language-understanding
 
+Note: Make sure AWS CLI is configured on your system
 
+Step 2 :If your AWS account is not set up, follow the below mentioned steps :
 
+Step 3 : Install `requirements.txt` for all pipelines.
+
+Step 4: Executables for triggering the Pipelines
+
+Annotation Pipeline: Cleaning5.py 
+
+Training Pipeline: pipeline.py
+
+Microservices Pipeline: Build the Docker Image using the following command  --> `docker-compose up --build` from cmd which will start the Flask Application.
+
+Inference Pipeline: Use the dockerized flask app for predicting the sentiments of any given company.
 
 
