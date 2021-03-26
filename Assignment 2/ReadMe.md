@@ -111,7 +111,13 @@ Tasks automated using SKLearn:
 
 ## Pipeline 3: Microservices
 
+![Pipeline3 (1)](https://user-images.githubusercontent.com/59594174/112607087-315fe380-8def-11eb-8962-761d88c98d3e.png)
+
+
+
 ## Pipeline 4: Inference Pipeline
+
+![Pipeline4](https://user-images.githubusercontent.com/59594174/112607109-36bd2e00-8def-11eb-8019-39af7fd37742.png)
 
 Dockerized Flask App - running the Generated Model to predict sentiments
 
