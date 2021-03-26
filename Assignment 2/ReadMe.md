@@ -111,6 +111,8 @@ Tasks automated using SKLearn:
 
 ## Pipeline 3: Microservices
 
+Taking the deployed model & json file as the input and dockerizing it in a flask application. 
+
 ![Pipeline3 (1)](https://user-images.githubusercontent.com/59594174/112607087-315fe380-8def-11eb-8962-761d88c98d3e.png)
 
 - Passed the newly generated json file and  model in the dockerized flask application.
@@ -122,14 +124,17 @@ Tasks automated using SKLearn:
 
 ## Pipeline 4: Inference Pipeline
 
+
 ![Pipeline4](https://user-images.githubusercontent.com/59594174/112607109-36bd2e00-8def-11eb-8019-39af7fd37742.png)
 
 Dockerized Flask App - running the Generated Model to predict sentiments
 
 
-## Flask
 
-## Docker
+## Docker Dashboard
+
+
+![pasted image 0](https://user-images.githubusercontent.com/59594174/112645724-2d4aba80-8e1d-11eb-8b51-0d40a74568d9.png)
 
 
 
