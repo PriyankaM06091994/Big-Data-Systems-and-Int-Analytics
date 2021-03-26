@@ -56,6 +56,30 @@ Annotation Pipeline1/
 └── train.py
 ```
 
+```
+Microservices Pipeline3/
+├── api/
+│   ├── __init__.py
+│   ├── compute_inference.py
+│   ├── inference.py
+│   ├── templates/
+│   │   └── home.html
+├── call_transcripts/
+│   ├── __init__.py
+│   └── <call transcripts for sentiment to be predicted>
+├── Clean_data/
+│   └── Cleaned_annotation.txt
+├── dev.env
+├── docker-compose.yml
+├── Dockerfile
+├── models/
+│   └── sentiment_tf.keras
+├── pipeline.py
+├── processed_data/
+│   └── labeled_data.csv
+└── requirements.txt
+```
+
 
 ## Annotation Pipeline 1
 
