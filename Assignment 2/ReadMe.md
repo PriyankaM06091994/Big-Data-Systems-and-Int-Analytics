@@ -12,7 +12,6 @@
  
  **Submission Date**: 26th March'21
 
-#### Data Pipeline in AWS
 
 #### CLAAT Link
 
