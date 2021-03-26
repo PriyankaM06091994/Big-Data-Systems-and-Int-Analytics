@@ -42,6 +42,19 @@ Annotation Pipeline1/
 ├── requirements.txt
 └── temp.json
  ```
+ 
+ 
+ ```
+ Training Pipeline2/
+├── models/
+│   └── sentiment_tf.keras
+├── processed_data/
+│   └── labeled_data.csv
+├── pipeline.py
+├── requirements.txt
+├── tensorflow_training.ipynb
+└── train.py
+```
 
 
 ## Annotation Pipeline 1
