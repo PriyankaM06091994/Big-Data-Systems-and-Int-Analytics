@@ -21,7 +21,6 @@ https://codelabs-preview.appspot.com/?file_id=1jRDq1PIwklosCZ56j8xRczTw_2W8J8OCJ
 
 **The aim of this assignment is to build four fully functional pipelines from using text analytics API to perform sentiment analysis, getting the labelled data and building machine learning models using transfer learnings, using Flask to then deploy the model and finally storing the results in a Docker container.**
 
-
 ### Dataset
 
 **Edgar Datasets**
@@ -29,6 +28,20 @@ https://codelabs-preview.appspot.com/?file_id=1jRDq1PIwklosCZ56j8xRczTw_2W8J8OCJ
 Dataset provided to us was the scraped data from Edgar datasets. 
 
 It consisted of financial data of  50 companies. 
+
+## Project Structure
+
+
+Annotation Pipeline1/
+├── call_transcripts/
+│   ├── <Insert transcript files here>
+├── Clean_data/
+│   └── Cleaned_annotation.txt
+├── Cleaning5.py
+├── labeled.csv
+├── requirements.txt
+└── temp.json
+ 
 
 
 ## Annotation Pipeline 1
@@ -40,7 +53,7 @@ Architecture Diagram for Annotation Pipeline:
 ![Pipeline1](https://user-images.githubusercontent.com/59594174/112587701-71fe3380-8dd4-11eb-91ce-19db601407fe.png)
 
 
-1. Data Scraping:
+1. Data Loading:
 
 Loading the scraped data from the Edgar Datasets in the S3 bucket.
 
