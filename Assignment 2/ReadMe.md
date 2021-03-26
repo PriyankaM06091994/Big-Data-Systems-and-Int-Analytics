@@ -31,6 +31,8 @@ It consisted of financial data of  50 companies.
 
 ## Project Structure
 
+**Annotation Pipeline**
+
 ```
 Annotation Pipeline1/
 ├── call_transcripts/
@@ -44,6 +46,8 @@ Annotation Pipeline1/
  ```
  
  
+**Training Pipeline**
+ 
  ```
  Training Pipeline2/
 ├── models/
@@ -55,6 +59,9 @@ Annotation Pipeline1/
 ├── tensorflow_training.ipynb
 └── train.py
 ```
+
+
+**Microservices Pipeline**
 
 ```
 Microservices Pipeline3/
@@ -78,6 +85,18 @@ Microservices Pipeline3/
 ├── processed_data/
 │   └── labeled_data.csv
 └── requirements.txt
+```
+
+
+**Inference Pipeline**
+
+```
+Inference Pipeline4/
+└── api/
+     ├── compute_inference.py
+     ├── inference.py
+     └── templates/
+        └── home.html
 ```
 
 
