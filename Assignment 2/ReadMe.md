@@ -113,6 +113,11 @@ Tasks automated using SKLearn:
 
 ![Pipeline3 (1)](https://user-images.githubusercontent.com/59594174/112607087-315fe380-8def-11eb-8962-761d88c98d3e.png)
 
+- Passed the newly generated json file and  model in the dockerized flask application.
+
+- We are making use of Flask RestFul API for running the flask application.
+
+
 
 
 ## Pipeline 4: Inference Pipeline
