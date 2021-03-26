@@ -208,7 +208,7 @@ Dockerized Flask App - running the Generated Model to predict sentiments
 
 1. IBM Watson Natural Language Understanding API :
 
-Step 1 : Create an Access Key for the service from IBM Watson console. 
+Step 1 : Create an Access Key for the service from IBM Watson console and replace it in `Cleaning5.py`.
          Navigate to the link here: https://cloud.ibm.com/apidocs/natural-language-understanding
 
 Note: Make sure AWS CLI is configured on your system
