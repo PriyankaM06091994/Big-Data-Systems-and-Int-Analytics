@@ -1,6 +1,3 @@
-https://codelabs-preview.appspot.com/?file_id=1jRDq1PIwklosCZ56j8xRczTw_2W8J8OCJ_UVoWYbeHk#8
-
-
 ## Big Data Systems and Int Analytics
 
 ## Assignment2
@@ -13,7 +10,7 @@ https://codelabs-preview.appspot.com/?file_id=1jRDq1PIwklosCZ56j8xRczTw_2W8J8OCJ
 |   Keerti Ojha     |   001050173     |
 | Priyanka Malpekar |   001302741     |
  
- Submission Date: 26th March'21
+ **Submission Date: 26th March'21
 
 #### Data Pipeline in AWS
 
@@ -25,15 +22,6 @@ https://codelabs-preview.appspot.com/?file_id=1jRDq1PIwklosCZ56j8xRczTw_2W8J8OCJ
 
 **The aim of this assignment is to build four fully functional pipelines from using text analytics API to perform sentiment analysis, getting the labelled data and building machine learning models using transfer learnings, using Flask to then deploy the model and finally storing the results in a Docker container.**
 
-## Pipeline 1: Annotation Pipeline
-Implementing a fully functional data pipeline using scraped data stored in S3 bucket, pre-processing the data to remove special characters and white-spaces, labelling and assigning sentiment scores by using ‘IBM Watson’ text API and loading the labelled data with its corresponding json file in S3 bucket.
-
-## Pipeline 2: Training Pipeline 
-Using the concept of transfer learning and making use of a pre-trained Tensorflow model to train our model and storing the results in a S3 bucket. 
-
-## Pipeline 3:
-
-## Pipeline 4:
 
 ### Dataset
 
@@ -44,8 +32,9 @@ Dataset provided to us was the scraped data from Edgar datasets.
 It consisted of financial data of  50 companies. 
 
 
-
 ## Annotation Pipeline 1
+
+Implementing a fully functional data pipeline using scraped data stored in S3 bucket, pre-processing the data to remove special characters and white-spaces, labelling and assigning sentiment scores by using ‘IBM Watson’ text API and loading the labelled data with its corresponding json file in S3 bucket.
 
 Architecture Diagram for Annotation Pipeline:
 
@@ -87,6 +76,7 @@ Loading the labeled data back in S3 bucket
 
 ## Training Pipeline 2
 
+Using the concept of transfer learning and making use of a pre-trained Tensorflow model to train our model and storing the results in a S3 bucket. 
 
 ![Pipeline2](https://user-images.githubusercontent.com/59594174/112587719-7c203200-8dd4-11eb-9306-7162cac05ef1.png)
 
