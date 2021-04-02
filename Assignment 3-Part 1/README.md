@@ -145,9 +145,9 @@ Command to start the app:  `streamlit run streamlit-app.py`
 
 
 ## References
-https://medium.com/data-rebels/fastapi-authentication-revisited-enabling-api-key-authentication-122dc5975680
-https://ma.moodys.com/2020_9_AMER_EBU_PortalIntroductionandAPILibraryOverview_WebTel_MAU12329_ThankYou.html
-https://github.com/mingrammer/diagrams
-https://fastapi.tiangolo.com/tutorial/
-https://www.kaggle.com/hadiyad/lendingclub-data-sets
+* https://medium.com/data-rebels/fastapi-authentication-revisited-enabling-api-key-authentication-122dc5975680
+* https://ma.moodys.com/2020_9_AMER_EBU_PortalIntroductionandAPILibraryOverview_WebTel_MAU12329_ThankYou.html
+* https://github.com/mingrammer/diagrams
+* https://fastapi.tiangolo.com/tutorial/
+* https://www.kaggle.com/hadiyad/lendingclub-data-sets
 
