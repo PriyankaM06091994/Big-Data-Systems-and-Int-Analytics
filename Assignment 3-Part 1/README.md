@@ -92,7 +92,7 @@ airflow users create \
 ![Airflow](https://user-images.githubusercontent.com/59594174/113439427-8b951180-93b8-11eb-9c0d-0bc6a2153fe3.png)
 
 Alternatively, you can also run Airflow from Windows using Docker.
-Reference file: `Data-Ingestion-Airflow/dags/airflow-docker.py`, `Data-Ingestion-Airflow/Docker`, `Data-Ingestion-Airflow/docker-compuse.yml`
+Reference file: `Data-Ingestion-Airflow/dags/airflow-docker.py`, `Data-Ingestion-Airflow/Docker`, `Data-Ingestion-Airflow/docker-compose.yml`
 Execute the commnad `docker-compose up --build` where `docker-compuse.yml` is located. Once the webserver is up and running access http://127.0.0.1:8080/home on your browser to see DAG `Windows-Pipeline` on the console
 
 ![image](https://user-images.githubusercontent.com/59846364/113449984-01a37380-93cd-11eb-8035-3e17fb853680.png)
