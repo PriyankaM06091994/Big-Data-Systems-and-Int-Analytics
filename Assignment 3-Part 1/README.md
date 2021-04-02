@@ -109,10 +109,5 @@ You can access the website by hitting ‘http://127.0.0.1:8089’
 ![Streamlit2](https://user-images.githubusercontent.com/59594174/113439455-9c458780-93b8-11eb-9f0d-7f3865bff771.png)
 
 
-https://user-images.githubusercontent.com/59594174/113441837-fba59680-93bc-11eb-9e92-01a01b109cff.mp4
 
-![streamlit-app](https://user-images.githubusercontent.com/59846364/113446167-44f9e400-93c5-11eb-83f8-7aa7644beaad.gif)
-
-
-
-
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/59846364/113446411-bfc2ff00-93c5-11eb-912d-59fe92587f6d.gif)
