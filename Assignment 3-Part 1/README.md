@@ -51,9 +51,9 @@ Kaggle Link to Dataset: https://www.kaggle.com/hadiyad/lendingclub-data-sets
 
 ![Architecture](https://user-images.githubusercontent.com/59594174/113439421-889a2100-93b8-11eb-8ddf-de5ca21af2c6.png)
 
+#### Note: Install `requirements.txt` before replicating the project
 
-
-## Data Ingestion
+## Task 1: Data Ingestion - Airflow
 
 Analyzing the raw data before ingestion using **XSV** for getting an insight on different aspects like number of columns, count of rows in each csv and over stats of the files.
 
@@ -61,16 +61,45 @@ Analyzing the raw data before ingestion using **XSV** for getting an insight on 
 2. Downlaoding Data
 3. Ingesting data in Snowflake database
 
-## Airflow
+**Reference Folder: Data-Ingestion-Airflow/**
 
-Pipeline includes automating:
-* Uploading data to S3
-* Downloading data from S3
-* Ingesting data in Snowflake database
+Download the dags folder, file `Data-Ingestion-Airflow/dags/ingestion-airflow.py` contains the airflow logic. Once below commands are executed, access the Airflow UI by visiting http://127.0.0.1:8080/home on your browser.
+```
+# Use your present working directory as
+# the airflow home
+export AIRFLOW_HOME=~(pwd)
+
+# export Python Path to allow use
+# of custom modules by Airflow
+export PYTHONPATH="${PYTHONPATH}:${AIRFLOW_HOME}"
+
+
+# initialize the database
+airflow db init
+
+airflow users create \
+    --username admin \
+    --firstname <YourName> \
+    --lastname <YourLastName> \
+    --role Admin \
+    --email example@example.com
+    
+ airflow webserver -D
+ 
+ airflow scheduler
+ ```
 
 ![Airflow](https://user-images.githubusercontent.com/59594174/113439427-8b951180-93b8-11eb-9c0d-0bc6a2153fe3.png)
 
-## Designing Fast API
+## FastAPI
+
+**Reference Folder: FastApi-Authentication-Pytest/**
+
+1. `api.py`: Contains logic for all the developing the api. Execute the file using command `uvicorn api:app --reload` and access it on browser using `http://localtest.me:8000/`. Explore the various end points by accessing the swaggerUI through `http://localtest.me:8000/documentation?access_token=1234567asdfgh`
+2. `snowflakecfg`: Configuration file for Snowflake credentials. Replace with your own snowflake credentials before replicating the project
+3. `test_api.py`: Contains logic for performing unit test on our designed API. Execute the same using command `pytest`
+
+## Designing FastAPI
 
 ![FastAPI](https://user-images.githubusercontent.com/59594174/113440163-dcf1d080-93b9-11eb-951d-7fcdc1805125.png)
 
@@ -90,7 +119,9 @@ Pipeline includes automating:
 
 ## Locust
 
-You can access the website by hitting ‘http://127.0.0.1:8089’
+**Reference Folder: Locust/**
+
+Execution the command `locust -f locus-Final.py`. This will start the locust console on `http://127.0.0.1:8089` in the browser
 
 **Locust UI**
 
@@ -103,7 +134,20 @@ You can access the website by hitting ‘http://127.0.0.1:8089’
 
 ## Streamlit
 
-Pulls the data from the live FastApi and validates authentication configured
+**Reference Folder: Streamlit/**
+
+The Streamlit application pulls the data from the live FastApi and validates authentication configured. Hence, make sure that the FastApi is active before starting Streamlit execution.
+
+Command to start the app:  `streamlit run streamlit-app.py`
 
 ![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/59846364/113446744-7921d480-93c6-11eb-8bd6-3f181ea88372.gif)
+
+
+
+## References
+https://medium.com/data-rebels/fastapi-authentication-revisited-enabling-api-key-authentication-122dc5975680
+https://ma.moodys.com/2020_9_AMER_EBU_PortalIntroductionandAPILibraryOverview_WebTel_MAU12329_ThankYou.html
+https://github.com/mingrammer/diagrams
+https://fastapi.tiangolo.com/tutorial/
+https://www.kaggle.com/hadiyad/lendingclub-data-sets
 
