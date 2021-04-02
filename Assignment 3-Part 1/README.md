@@ -121,7 +121,7 @@ airflow users create \
 
 **Reference Folder: Locust/**
 
-Execution the command `locust -f locus-Final.py`. This will start the locust console on `http://127.0.0.1:8089` in the browser
+Execute command `locust -f locus-Final.py`. This will start the locust console on `http://127.0.0.1:8089` in the browser
 
 **Locust UI**
 
