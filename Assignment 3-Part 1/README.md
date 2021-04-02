@@ -103,5 +103,7 @@ You can access the website by hitting ‘http://127.0.0.1:8089’
 
 ## Streamlit
 
+Pulls the data from the live FastApi and validates authentication configured
+
 ![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/59846364/113446744-7921d480-93c6-11eb-8bd6-3f181ea88372.gif)
 
