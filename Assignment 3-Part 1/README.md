@@ -91,7 +91,7 @@ airflow users create \
 
 ![Airflow](https://user-images.githubusercontent.com/59594174/113439427-8b951180-93b8-11eb-9c0d-0bc6a2153fe3.png)
 
-## FastAPI
+## Task 2: FastAPI
 
 **Reference Folder: FastApi-Authentication-Pytest/**
 
@@ -103,7 +103,7 @@ airflow users create \
 
 ![FastAPI](https://user-images.githubusercontent.com/59594174/113440163-dcf1d080-93b9-11eb-951d-7fcdc1805125.png)
 
-## API Key Authentication
+## Task 3: API Key Authentication
 
 ![Auth1](https://user-images.githubusercontent.com/59594174/113440173-e1b68480-93b9-11eb-80bd-a4d45b9d19f4.png)
 
@@ -113,7 +113,7 @@ airflow users create \
 
 ![Auth3](https://user-images.githubusercontent.com/59594174/113440186-e7ac6580-93b9-11eb-872b-eb1308e57c22.png)
 
-## Pytest
+## Task 4: Pytest & Locust 
 
 ![Pytest](https://user-images.githubusercontent.com/59594174/113440194-ed09b000-93b9-11eb-84d6-597b20ad4514.png)
 
