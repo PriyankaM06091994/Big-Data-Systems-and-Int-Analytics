@@ -103,11 +103,4 @@ You can access the website by hitting ‘http://127.0.0.1:8089’
 
 ## Streamlit
 
-![STreamlit1png](https://user-images.githubusercontent.com/59594174/113439447-98196a00-93b8-11eb-8d9a-86141e3261d7.png)
-
-
-![Streamlit2](https://user-images.githubusercontent.com/59594174/113439455-9c458780-93b8-11eb-9f0d-7f3865bff771.png)
-
-
-
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/59846364/113446411-bfc2ff00-93c5-11eb-912d-59fe92587f6d.gif)
