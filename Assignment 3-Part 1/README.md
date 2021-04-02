@@ -22,16 +22,16 @@ https://codelabs-preview.appspot.com/?file_id=1jTHf8qaN4N300bceYkY12fPi7ERu2TbfQ
 
 **Moody's Analytics** provides financial intelligence and analytical tools to help business leaders make better, faster decisions. It provides a robust set of APIs that enable users to interact with their economic and credit solutions.
 
-How do they Work?
---Moody Analytics provides various API's as per the requirements of the applications
---Create a developer account -> Register an App -> Provides API key to access the API's
---In order to access the API's an access code is required which authorizes the user.
---New Apps can be created and accessed by using the Promo Code
---API's are displayed in an interactive swagger UI which assist in understanding the various API methods
+**How do they Work?**
+-Moody Analytics provides various API's as per the requirements of the applications
+-Create a developer account -> Register an App -> Provides API key to access the API's
+-In order to access the API's an access code is required which authorizes the user.
+-New Apps can be created and accessed by using the Promo Code
+-API's are displayed in an interactive swagger UI which assist in understanding the various API methods
 
 ## Dataset
 
-**Lending Club  Datasets
+**Lending Club  Datasets**
 
 We are using two csv’s for our implementation viz:
 
@@ -42,7 +42,7 @@ Kaggle Link to Dataset: https://www.kaggle.com/hadiyad/lendingclub-data-sets
 
 ## Architecture
 
---Diagrams
+![Architecture](https://user-images.githubusercontent.com/59594174/113439421-889a2100-93b8-11eb-8ddf-de5ca21af2c6.png)
 
 ## Data Ingestion
 
@@ -57,7 +57,7 @@ Pipeline includes automating:
 -Downloading data from S3
 -Ingesting data in Snowflake database
 
---Diagram
+![Airflow](https://user-images.githubusercontent.com/59594174/113439427-8b951180-93b8-11eb-9c0d-0bc6a2153fe3.png)
 
 ## Designing Fast API
 
@@ -71,12 +71,19 @@ You can access the website by hitting ‘http://127.0.0.1:8089’
 
 **Locust UI**
 
+![Locust1](https://user-images.githubusercontent.com/59594174/113439437-92238900-93b8-11eb-9ae7-714f98426c0a.png)
 
 **Testing our end-points in Locust**
 
+![Locust2](https://user-images.githubusercontent.com/59594174/113439441-951e7980-93b8-11eb-90f4-aa7b0d152a47.png)
+
+
 ## Streamlit
 
+![STreamlit1png](https://user-images.githubusercontent.com/59594174/113439447-98196a00-93b8-11eb-8d9a-86141e3261d7.png)
 
+
+![Streamlit2](https://user-images.githubusercontent.com/59594174/113439455-9c458780-93b8-11eb-9f0d-7f3865bff771.png)
 
 
 
