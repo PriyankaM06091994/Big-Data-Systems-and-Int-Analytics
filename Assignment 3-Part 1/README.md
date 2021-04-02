@@ -47,6 +47,8 @@ Kaggle Link to Dataset: https://www.kaggle.com/hadiyad/lendingclub-data-sets
 
 ## Data Ingestion
 
+Analyzing the raw data before ingestion using **XSV** for getting an insight on different aspects like number of columns, count of rows in each csv and over stats of the files.
+
 1. Uploading data to S3
 2. Downlaoding Data
 3. Ingesting data in Snowflake database
@@ -62,9 +64,21 @@ Pipeline includes automating:
 
 ## Designing Fast API
 
+![FastAPI](https://user-images.githubusercontent.com/59594174/113440163-dcf1d080-93b9-11eb-951d-7fcdc1805125.png)
+
 ## API Key Authentication
 
+![Auth1](https://user-images.githubusercontent.com/59594174/113440173-e1b68480-93b9-11eb-80bd-a4d45b9d19f4.png)
+
+
+![Auth2](https://user-images.githubusercontent.com/59594174/113440182-e54a0b80-93b9-11eb-9057-5617bf7c20bc.png)
+
+
+![Auth3](https://user-images.githubusercontent.com/59594174/113440186-e7ac6580-93b9-11eb-872b-eb1308e57c22.png)
+
 ## Pytest
+
+![Pytest](https://user-images.githubusercontent.com/59594174/113440194-ed09b000-93b9-11eb-84d6-597b20ad4514.png)
 
 ## Locust
 
