@@ -111,11 +111,7 @@ You can access the website by hitting ‘http://127.0.0.1:8089’
 
 https://user-images.githubusercontent.com/59594174/113441837-fba59680-93bc-11eb-9e92-01a01b109cff.mp4
 
-<a href="{https://user-images.githubusercontent.com/59846364/113445754-80e07980-93c4-11eb-97f1-c627b24bef88.mp4}" title="Link Title"></a>
-
-
-
-<iframe width="1000" height="700" src="https://user-images.githubusercontent.com/59594174/113441837-fba59680-93bc-11eb-9e92-01a01b109cff.mp4" frameborder="0" style="border:0" allowfullscreen></iframe>
+![streamlit-app](https://user-images.githubusercontent.com/59846364/113446167-44f9e400-93c5-11eb-83f8-7aa7644beaad.gif)
 
 
 
