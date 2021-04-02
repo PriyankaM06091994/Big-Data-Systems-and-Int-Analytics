@@ -43,7 +43,15 @@ Kaggle Link to Dataset: https://www.kaggle.com/hadiyad/lendingclub-data-sets
 
 ## Architecture
 
+**Moody Architecture**
+
+![moody-architecture](https://user-images.githubusercontent.com/59594174/113445641-437bec00-93c4-11eb-8f11-4c0550fe650a.png)
+
+**Proposed Architecture**
+
 ![Architecture](https://user-images.githubusercontent.com/59594174/113439421-889a2100-93b8-11eb-8ddf-de5ca21af2c6.png)
+
+
 
 ## Data Ingestion
 
