@@ -7,12 +7,12 @@ import sqlalchemy as sql
 import pandas as pd
 from sqlalchemy.dialects import registry
 
-
+# Insert your Access key and Secret Access Key
 def download_data():
     #s3 = boto3.resource('s3')
     s3 = boto3.resource('s3',
-                      aws_access_key_id='AKIAQYGLQ5IZM4PSIV2S',
-                      aws_secret_access_key='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')
+                      aws_access_key_id='********************',
+                      aws_secret_access_key='*************************')
     # Replace with your bucket name and download directory
     bucket_name = s3.Bucket('airflow-ingest-data')
     #path = './data/'
