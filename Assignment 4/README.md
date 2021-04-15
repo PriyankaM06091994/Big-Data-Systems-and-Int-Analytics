@@ -35,7 +35,7 @@ It consisted of financial data of 50 companies.
 
 ## Task 4: Pytest & Locust 
 
-![Pytest](https://user-images.githubusercontent.com/59594174/113440194-ed09b000-93b9-11eb-84d6-597b20ad4514.png)
+
 
 ## Locust
 
