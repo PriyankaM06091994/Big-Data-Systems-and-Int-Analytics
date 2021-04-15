@@ -61,7 +61,6 @@ It consisted of financial data of 50 companies.
 * https://curiousily.com/posts/deploy-bert-for-sentiment-analysis-as-rest-api-using-pytorch-transformers-by-hugging-face-and-fastapi/
 * https://blog.tensorflow.org/2020/03/part-1-fast-scalable-and-accurate-nlp-tensorflow-deploying-bert.html
 * https://blog.tensorflow.org/2020/06/part-2-fast-scalable-and-accurate-nlp.html
-* https://colab.research.google.com/github/tensorflow/workshops/blob/master/blog/TFX_Pipeline_for_Bert_Preprocessing.ipynb#scrollTo=WWni3fVVafDa
 * https://tfhub.dev/google/albert_base/3
 * https://testdriven.io/blog/fastapi-streamlit/
 * https://medium.com/python-data/how-to-deploy-tensorflow-2-0-models-as-an-api-service-with-fastapi-docker-128b177e81f3
