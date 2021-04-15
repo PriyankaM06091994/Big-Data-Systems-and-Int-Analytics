@@ -33,7 +33,7 @@ It consisted of financial data of 50 companies.
 
 
 
-## Task 4: Pytest & Locust 
+## Pytest  
 
 
 
