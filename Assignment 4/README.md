@@ -36,7 +36,7 @@ It consisted of financial data of 50 companies.
 ## Requirements
 
 - Signup for an AWS Account [here](https://portal.aws.amazon.com/billing/signup#/start).
-- Install the `requirements.txt` file with command `pip install requirements.txt`
+- Install the `requirements.txt` file with command `pip install -r requirements.txt`
 - Configure AWS CLI 
   * Open command line tool of choice on your machine and run `aws configure`. Enter your access and secret access keys and leave the default region name and output format as null. 
 
