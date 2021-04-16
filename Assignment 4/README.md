@@ -34,14 +34,23 @@ It consisted of financial data of 50 companies.
 ![ass4 (4)](https://user-images.githubusercontent.com/59594174/115077185-a2b12480-9ecb-11eb-862b-5a9f8b2fe3b1.png)
 
 
+## Docker
+
+Created a docker image of the FastApi service.
+
+Running the container and image on port 8000 which initiates FastApi on port 8000.
+
+![DOcker](https://user-images.githubusercontent.com/59594174/115077630-60d4ae00-9ecc-11eb-96b1-4659ea761d26.png)
+
+
 ## Pytest  
 
+Implementation of Pytest for complex functional testing of our endpoints for different use cases in designed FastApi.
+
+![Pytest](https://user-images.githubusercontent.com/59594174/115077738-8e215c00-9ecc-11eb-89e7-a10a9f260658.png)
 
 
 ## Locust
-
-
-
 
 **Locust UI**
 
