@@ -33,7 +33,7 @@ It consisted of financial data of 50 companies.
 
 ![ass4 (4)](https://user-images.githubusercontent.com/59594174/115077185-a2b12480-9ecb-11eb-862b-5a9f8b2fe3b1.png)
 
-### Requirements
+## Requirements
 
 - Signup for an AWS Account [here](https://portal.aws.amazon.com/billing/signup#/start).
 - Install the `requirements.txt` file with command `pip install requirements.txt`
@@ -49,40 +49,27 @@ It consisted of financial data of 50 companies.
     ```
 - Python 3.7+
 
-### Setup
+## Setup
 
-#### Creating the API's using AWS services
+### Creating the API's using AWS services
 
-* Creating an IAM role for lambda
 * Create three lambda functions each having different use 
 * Create a lambda function for loading the call transcripts EDGAR data from S3 bucket
 
 
-#### Train TensorFlow models using TensorFlow Extended (TFX)
-
-* Use the [Colab Notebook](https://github.com/tensorflow/workshops/blob/master/blog/TFX_Pipeline_for_ALBERT_Preprocessing_wo_tf_Examples.ipynb) to train the pretrained albert model on IMDB reviews dataset from Tensorflow Hub. Save the model to the S3 bucket.
-* Replace the bucket name in `download.py` file and run it to find the downloaded model under `/model` folder
-* Once the model is downloaded we are ready to server the model as a FastApi using docker
-
-#### Dockerize the FastApi service
-
-* Navigate to the project directory and build the docker image `docker build -t <image_name> .`
-* Run the container on port 8000 `docker run -d --name <container_name> -p 80:80 <image_name>`
-* You can access the Swagger UI on http://127.0.0.1/docs
-
-#### Inference Application
-
-* Run the streamlit app using command `streamlit run app.py`
-* You can access the app from your browser on https://localhost:8501
-
 ## TensorFlow model using TensorFlow Extended (TFX)
 
-Using the trained model on IMDB reviews dataset from S3 bucket to predict the sentiments of the text passed through the body of FastApi.
+* Use the [Colab Notebook]() to train the pretrained albert model on IMDB reviews dataset from Tensorflow Hub. Save the model to the S3 bucket and google drive
 
 ![ARch2](https://user-images.githubusercontent.com/59594174/115078006-fc661e80-9ecc-11eb-9971-0ce15adf4761.png)
 
 
 ## Serve the model as a FastAPI
+
+**Reference File: Part3-FastApi-Pytest-Docker/**
+
+* Run the `download-model.py` to download the model under `/model` folder
+* Once the model is downloaded we are ready to server the model as a FastApi using docker
 
 ![FastAPI1](https://user-images.githubusercontent.com/59594174/115078155-2ddeea00-9ecd-11eb-821a-de8ac9701da3.png)
 
@@ -93,29 +80,37 @@ Predicting the Sentiments:
 ![FastAPI2](https://user-images.githubusercontent.com/59594174/115078167-3505f800-9ecd-11eb-946b-d88c590a3f91.png)
 
 
-## Docker
+### Dockerize the FastApi service
 
-Created a docker image of the FastApi service.
+**Reference File: Part3-FastApi-Pytest-Docker/Docker**
 
-Running the container and image on port 8000 which initiates FastApi on port 8000.
+* Navigate to the project directory and build the docker image `docker build -t <image_name> .`
+* Run the container on port 8000 `docker run -d --name <container_name> -p 80:80 <image_name>`
+* You can access the Swagger UI on http://127.0.0.1/docs
+
 
 ![DOcker](https://user-images.githubusercontent.com/59594174/115077630-60d4ae00-9ecc-11eb-96b1-4659ea761d26.png)
 
 
 ## Pytest  
 
-Implementation of Pytest for complex functional testing of our endpoints for different use cases in designed FastApi.
+**Reference File: Part3-FastApi-Pytest-Docker/test_fastapi**
+
+From the terminal run command `pytest` to check if all test cases written are passed
 
 ![Pytest](https://user-images.githubusercontent.com/59594174/115077738-8e215c00-9ecc-11eb-89e7-a10a9f260658.png)
 
 
 ## Locust
 
+**Reference Folder: Locust/**
+
 **Locust UI**
 
 ![Locust](https://user-images.githubusercontent.com/59594174/115077432-09364280-9ecc-11eb-9397-3c31717e586d.png)
 
 **Testing our end-points in Locust**
+
 
 ![Locust1](https://user-images.githubusercontent.com/59594174/115077350-e60b9300-9ecb-11eb-8bdd-d1c07b77a286.png)
 
@@ -127,7 +122,8 @@ Implementation of Pytest for complex functional testing of our endpoints for dif
 
 **Reference Folder: Streamlit/**
 
-
+* Run the streamlit app using command `streamlit run app.py`
+* You can access the app from your browser on https://localhost:8501
 
 
 ## References
