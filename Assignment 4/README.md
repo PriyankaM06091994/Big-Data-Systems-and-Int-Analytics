@@ -34,6 +34,24 @@ It consisted of financial data of 50 companies.
 ![ass4 (4)](https://user-images.githubusercontent.com/59594174/115077185-a2b12480-9ecb-11eb-862b-5a9f8b2fe3b1.png)
 
 
+## TensorFlow model using TensorFlow Extended (TFX)
+
+Using the trained model on IMDB reviews dataset from S3 bucket to predict the sentiments of the text passed through the body of FastApi.
+
+![ARch2](https://user-images.githubusercontent.com/59594174/115078006-fc661e80-9ecc-11eb-9971-0ce15adf4761.png)
+
+
+## Serve the model as a FastAPI
+
+![FastAPI1](https://user-images.githubusercontent.com/59594174/115078155-2ddeea00-9ecd-11eb-821a-de8ac9701da3.png)
+
+
+Predicting the Sentiments:
+
+
+![FastAPI2](https://user-images.githubusercontent.com/59594174/115078167-3505f800-9ecd-11eb-946b-d88c590a3f91.png)
+
+
 ## Docker
 
 Created a docker image of the FastApi service.
