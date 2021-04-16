@@ -33,6 +33,47 @@ It consisted of financial data of 50 companies.
 
 ![ass4 (4)](https://user-images.githubusercontent.com/59594174/115077185-a2b12480-9ecb-11eb-862b-5a9f8b2fe3b1.png)
 
+### Requirements
+
+- Signup for an AWS Account [here](https://portal.aws.amazon.com/billing/signup#/start).
+- Install the `requirements.txt` file with command `pip install requirements.txt`
+- Configure AWS CLI 
+  * Open command line tool of choice on your machine and run `aws configure`. Enter your access and secret access keys and leave the default region name and output format as null. 
+
+    ```
+    $ aws configure
+    AWS Access Key ID [None]: <access-key-from-aws-account>
+    AWS Secret Access Key [None]: <secret-access-key-from-aws-account>
+    Default region name [None]: 
+    Default output format [None]: json
+    ```
+- Python 3.7+
+
+### Setup
+
+#### Creating the API's using AWS services
+
+* Creating an IAM role for lambda
+* Create three lambda functions each having different use 
+* Create a lambda function for loading the call transcripts EDGAR data from S3 bucket
+
+
+#### Train TensorFlow models using TensorFlow Extended (TFX)
+
+* Use the [Colab Notebook](https://github.com/tensorflow/workshops/blob/master/blog/TFX_Pipeline_for_ALBERT_Preprocessing_wo_tf_Examples.ipynb) to train the pretrained albert model on IMDB reviews dataset from Tensorflow Hub. Save the model to the S3 bucket.
+* Replace the bucket name in `download.py` file and run it to find the downloaded model under `/model` folder
+* Once the model is downloaded we are ready to server the model as a FastApi using docker
+
+#### Dockerize the FastApi service
+
+* Navigate to the project directory and build the docker image `docker build -t <image_name> .`
+* Run the container on port 8000 `docker run -d --name <container_name> -p 80:80 <image_name>`
+* You can access the Swagger UI on http://127.0.0.1/docs
+
+#### Inference Application
+
+* Run the streamlit app using command `streamlit run app.py`
+* You can access the app from your browser on https://localhost:8501
 
 ## TensorFlow model using TensorFlow Extended (TFX)
 
