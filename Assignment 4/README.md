@@ -35,6 +35,7 @@ It consisted of financial data of 50 companies.
 
 ## Requirements
 
+- Python 3.7+
 - Signup for an AWS Account [here](https://portal.aws.amazon.com/billing/signup#/start).
 - Install the `requirements.txt` file with command `pip install -r requirements.txt`
 - Configure AWS CLI 
@@ -47,19 +48,25 @@ It consisted of financial data of 50 companies.
     Default region name [None]: 
     Default output format [None]: json
     ```
-- Python 3.7+
+
 
 ## Setup
 
 ### Creating the API's using AWS services
 
-* Create three lambda functions each having different use 
-* Create a lambda function for loading the call transcripts EDGAR data from S3 bucket
+**Reference File: Part1-AWS-Serverless-Lambda/**
+
+* Create three lambda functions each having different use case from the reference folder
+  * Lambda1: Accessing data from S3 bucket
+  * Lambda2: Named Entity Recognition using AWS comprehend
+  * Lambda3: Mask/Anonymize Data using AWS comprehend
 
 
 ## TensorFlow model using TensorFlow Extended (TFX)
 
-* Use the [Colab Notebook]() to train the pretrained albert model on IMDB reviews dataset from Tensorflow Hub. Save the model to the S3 bucket and google drive
+**Reference File: Part2-TFX/TFX_Pipeline_for_Bert_Preprocessing.ipynb**
+
+* Use the reference colab notebook to train the pretrained albert model on IMDB reviews dataset from Tensorflow Hub. Save the model to the S3 bucket and google drive
 
 ![ARch2](https://user-images.githubusercontent.com/59594174/115078006-fc661e80-9ecc-11eb-9971-0ce15adf4761.png)
 
