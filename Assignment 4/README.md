@@ -101,7 +101,7 @@ Predicting the Sentiments:
 
 ## Pytest  
 
-**Reference File: Part3-FastApi-Pytest-Docker/test_fastapi**
+**Reference File: Part3-FastApi-Pytest-Docker/test_fastapi.py**
 
 From the terminal run command `pytest` to check if all test cases written are passed
 
