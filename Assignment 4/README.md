@@ -40,15 +40,19 @@ It consisted of financial data of 50 companies.
 
 ## Locust
 
-**Reference Folder: Locust/**
+
 
 
 **Locust UI**
 
-
+![Locust](https://user-images.githubusercontent.com/59594174/115077432-09364280-9ecc-11eb-9397-3c31717e586d.png)
 
 **Testing our end-points in Locust**
 
+![Locust1](https://user-images.githubusercontent.com/59594174/115077350-e60b9300-9ecb-11eb-8bdd-d1c07b77a286.png)
+
+
+![Locust2](https://user-images.githubusercontent.com/59594174/115077359-ea37b080-9ecb-11eb-9c87-ba54da8b87b7.png)
 
 
 ## Streamlit
