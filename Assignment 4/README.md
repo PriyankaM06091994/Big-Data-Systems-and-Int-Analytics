@@ -31,6 +31,7 @@ It consisted of financial data of 50 companies.
 
 ## Architecture
 
+![ass4 (4)](https://user-images.githubusercontent.com/59594174/115077185-a2b12480-9ecb-11eb-862b-5a9f8b2fe3b1.png)
 
 
 ## Pytest  
