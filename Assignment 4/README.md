@@ -82,7 +82,7 @@ It consisted of financial data of 50 companies.
 ![FastAPI1](https://user-images.githubusercontent.com/59594174/115078155-2ddeea00-9ecd-11eb-821a-de8ac9701da3.png)
 
 
-Predicting the Sentiments:
+**Predicting the Sentiments:**
 
 
 ![FastAPI2](https://user-images.githubusercontent.com/59594174/115078167-3505f800-9ecd-11eb-946b-d88c590a3f91.png)
@@ -110,8 +110,6 @@ From the terminal run command `pytest` to check if all test cases written are pa
 
 
 ## Locust
-
-**Reference Folder: Locust/**
 
 Load testing on FastApi endpoints: `locust -f assignment4-FastApi.py`
 
