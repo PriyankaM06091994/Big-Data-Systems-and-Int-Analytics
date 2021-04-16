@@ -137,6 +137,9 @@ This will start the locust console on http://127.0.0.1:8089 in the browser
 * Run the streamlit app using command `streamlit run app.py`
 * You can access the app from your browser on https://localhost:8501
 
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/59594174/115085461-941d3a00-9ed8-11eb-94fb-0436c9ab5d49.gif)
+
+
 
 ## References
 * https://curiousily.com/posts/deploy-bert-for-sentiment-analysis-as-rest-api-using-pytorch-transformers-by-hugging-face-and-fastapi/
