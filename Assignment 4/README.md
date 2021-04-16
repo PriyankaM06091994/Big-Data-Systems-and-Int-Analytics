@@ -68,7 +68,6 @@ It consisted of financial data of 50 companies.
 
 * Use the reference colab notebook to train the pretrained albert model on IMDB reviews dataset from Tensorflow Hub. Save the model to the S3 bucket and google drive
 
-You can also access the colab notebook from [here](https://drive.google.com/file/d/1oD9tKKBvWlTEosOc9lpVajRqDZgKr341/view?usp=sharing)
 
 ![ARch2](https://user-images.githubusercontent.com/59594174/115078006-fc661e80-9ecc-11eb-9971-0ce15adf4761.png)
 
