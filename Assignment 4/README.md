@@ -112,6 +112,12 @@ From the terminal run command `pytest` to check if all test cases written are pa
 
 **Reference Folder: Locust/**
 
+Load testing on FastApi endpoints: `locust -f assignment4-FastApi.py`
+
+Load testing on AWS Api Gateway endpoints: `locust -f assignment4-ApiGateway.py`
+
+This will start the locust console on http://127.0.0.1:8089 in the browser
+
 **Locust UI**
 
 ![Locust](https://user-images.githubusercontent.com/59594174/115077432-09364280-9ecc-11eb-9397-3c31717e586d.png)
