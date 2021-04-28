@@ -3,7 +3,7 @@ import boto3
 
 def lambda_handler(event, context):
     # boto3 S3 initialization
-    s3_client = boto3.client("s3",aws_access_key_id ='AKIAXZLTWQIDYOIAK4WU' ,aws_secret_access_key = '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' ,region_name = 'us-east-1')
+    s3_client = boto3.client("s3",aws_access_key_id ='' ,aws_secret_access_key = '' ,region_name = 'us-east-1')
     destination_bucket_name = 'connect-hist-calls'
 
     print("Event :", event)
