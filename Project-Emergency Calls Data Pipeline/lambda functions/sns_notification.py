@@ -3,11 +3,11 @@ import boto3
 
 
 def lambda_handler(event, context):
-    sns = boto3.client("sns",region_name="us-east-1",aws_access_key_id="AKIAXZLTWQIDYOIAK4WU",aws_secret_access_key="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")
+    sns = boto3.client("sns",region_name="us-east-1",aws_access_key_id="",aws_secret_access_key="")
 
     def getitem(audiofile):
-        dynamodb = boto3.client('dynamodb', aws_access_key_id="AKIAXZLTWQIDYOIAK4WU",
-                                    aws_secret_access_key="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", region_name="us-east-1")
+        dynamodb = boto3.client('dynamodb', aws_access_key_id="",
+                                    aws_secret_access_key="", region_name="us-east-1")
         response = dynamodb.get_item(TableName='911emergencycalls', Key={'audiofile': {'S': audiofile}})
         if response['Item']['victim_name']['S'] == "":
             callername = "Not Mentioned"
