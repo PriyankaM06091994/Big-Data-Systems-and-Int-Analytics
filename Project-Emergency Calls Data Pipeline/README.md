@@ -16,6 +16,7 @@
 * About
 * Architecture
 * Dataset
+* Folder Structure
 * Requirements
 * Setup
 * Steps to regenerate
