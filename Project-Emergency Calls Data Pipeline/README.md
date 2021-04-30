@@ -168,13 +168,11 @@ https://app.powerbi.com/view?r=eyJrIjoiODgzZDQ5YzQtNTNmMS00OWE4LWIwMWMtZGM3MTM0N
 
 #### Dashboard 2: 
 
-<iframe width="560" height="315" src="https://app.powerbi.com/view?r=eyJrIjoiZDExNGU2NGYtZmU2MC00M2U3LWI4ODUtYmI4NmNiZGIxMWU5IiwidCI6ImE4ZWVjMjgxLWFhYTMtNGRhZS1hYzliLTlhMzk4YjkyMTVlNyIsImMiOjN9&pageName=ReportSection" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
-
 https://app.powerbi.com/view?r=eyJrIjoiZDExNGU2NGYtZmU2MC00M2U3LWI4ODUtYmI4NmNiZGIxMWU5IiwidCI6ImE4ZWVjMjgxLWFhYTMtNGRhZS1hYzliLTlhMzk4YjkyMTVlNyIsImMiOjN9&pageName=ReportSection
+
 
 ![pasted image 0 (2)](https://user-images.githubusercontent.com/59594174/116651053-5d233b80-a950-11eb-9904-efcb49eda74b.png)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HyeLsyKRRGE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## References:
 
