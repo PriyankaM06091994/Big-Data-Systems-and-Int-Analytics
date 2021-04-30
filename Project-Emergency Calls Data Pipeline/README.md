@@ -64,7 +64,7 @@ The main aim of our project is to handle Emergency audio calls and build a fully
 
 In our scenario, we are fetching real time call data that is being received and recorded through AWS Connect Service which are in the format .wav files. This audio call recording data will be stored in AWS S3 bucket as soon as the call between the customer and agent is closed.
 
-##### Service stack used:
+### Service stack used:
 
 - :white_check_mark: AWS Connect
 - :white_check_mark: AWS Transcribe
