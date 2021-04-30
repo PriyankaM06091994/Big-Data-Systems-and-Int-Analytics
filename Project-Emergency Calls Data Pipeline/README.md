@@ -135,7 +135,7 @@ For detailed setup refer [here](https://codelabs-preview.appspot.com/?file_id=1a
 - Run the streamlit app using `streamlit run streamlit.py`
 
 
-## ServerlessLambdaFunctions
+## ServerlessLambdaFunction
 
 :file_folder: **Reference Folder:** `/lambda functions`
 
