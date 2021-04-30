@@ -11,6 +11,23 @@
 |   [Keerti Ojha](https://www.linkedin.com/in/keertiojha/)     |   001050173     |
 | [Priyanka Malpekar](https://www.linkedin.com/in/priyankamalpekar6/) |   001302741     |
 
+## CLAT Link
+
+Link: https://codelabs-preview.appspot.com/?file_id=1hLC_-yuAXatvpq8ndS7YYJFFCvrEfW4-yeMCmZMKRWg#0
+
+## Demo Video Recording
+
+https://www.youtube.com/watch?v=HyeLsyKRRGE
+
+## AWS Deployment Link:
+
+The Streamlit Web Application can be acccessed at: http://52.86.246.227:8501
+Login Credentials to try out website:
+```
+Username: admin
+Password: admin
+```
+
 
 ## Table of Contents
 * [About](#about)
@@ -30,17 +47,15 @@
 
 The main aim of our project is to handle Emergency audio calls and build a fully functional data pipeline to notify it to the correct entities using various AWS services and demonstrating insights in a reference web application.
 
-## CLAT Link
+## Architecture
 
-Link: https://codelabs-preview.appspot.com/?file_id=1hLC_-yuAXatvpq8ndS7YYJFFCvrEfW4-yeMCmZMKRWg#0
+## Dataset
 
-## AWS Deployment Link:
+In our scenario, we are fetching real time call data that is being received and recorded through AWS Connect Service which are in the format .wav files. This audio call recording data will be stored in AWS S3 bucket as soon as the call between the customer and agent is closed.
 
-Link: http://52.86.246.227:8501
+## Folder Structure
 
-Login Credentials to try our website:
-Username: admin
-Password: admin
+
 
 
 ## Dashboard Links:
@@ -49,7 +64,7 @@ Password: admin
 
 2. https://app.powerbi.com/view?r=eyJrIjoiZDExNGU2NGYtZmU2MC00M2U3LWI4ODUtYmI4NmNiZGIxMWU5IiwidCI6ImE4ZWVjMjgxLWFhYTMtNGRhZS1hYzliLTlhMzk4YjkyMTVlNyIsImMiOjN9&pageName=ReportSection
 
-## Architecture
+
 
 
 ## Requirements
