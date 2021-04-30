@@ -150,10 +150,12 @@ The following are the serverless lambda functions configured in this project
 
 ## Streamlit
 
-:file_folder: **Reference Folder:** Streamlit/
+:file_folder: **Reference Folder:** `/Streamlit`
 
 * Run the streamlit app using command `streamlit run streamlit.py`
 * You can access the locally app from your browser on `https://localhost:8501`
+
+![2](https://user-images.githubusercontent.com/59846364/116681502-10a12580-a97b-11eb-9418-4ff89b7cc29e.png)
 
 ![3](https://user-images.githubusercontent.com/59846364/116680297-7db3bb80-a979-11eb-8d33-76af0eb9d0f4.png)
 
