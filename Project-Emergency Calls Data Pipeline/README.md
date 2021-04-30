@@ -30,6 +30,12 @@
 ## Architecture
 
 
+## Requirements
+
+- Most labs require an Amazon Web Services account to deploy and run. Signup for an AWS Account [here](https://portal.aws.amazon.com/billing/signup#/start).
+- Python 3.7+
+- Refer to the `requirements.txt` file or `README.md` inside the respective directories to install all dependencies.
+
 
 ## Serverless Lambda Functions
 
