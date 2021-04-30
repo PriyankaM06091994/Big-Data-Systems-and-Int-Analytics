@@ -61,19 +61,19 @@ In our scenario, we are fetching real time call data that is being received and 
 
 ##### Service stack used:
 
-:heavy_check_mark: AWS Connect
-:heavy_check_mark: AWS Transcribe
-:heavy_check_mark: AWS Comprehend
-:heavy_check_mark: AWS S3
-:heavy_check_mark: AWS Dynamodb
-:heavy_check_mark: AWS Lambda
-:heavy_check_mark: AWS API Gateway
-:heavy_check_mark: AWS SNS
-:heavy_check_mark: Google Maps API
-:heavy_check_mark: Streamlit
-:heavy_check_mark: Pytest
-:heavy_check_mark: Locust
-:heavy_check_mark: PowerBI
+- :heavy_check_mark: AWS Connect
+- :heavy_check_mark: AWS Transcribe
+- :heavy_check_mark: AWS Comprehend
+- :heavy_check_mark: AWS S3
+- :heavy_check_mark: AWS Dynamodb
+- :heavy_check_mark: AWS Lambda
+- :heavy_check_mark: AWS API Gateway
+- :heavy_check_mark: AWS SNS
+- :heavy_check_mark: Google Maps API
+- :heavy_check_mark: Streamlit
+- :heavy_check_mark: Pytest
+- :heavy_check_mark: Locust
+- :heavy_check_mark: PowerBI
 
 
 
