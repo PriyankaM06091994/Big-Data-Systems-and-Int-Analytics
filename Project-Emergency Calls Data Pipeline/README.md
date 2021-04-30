@@ -11,6 +11,9 @@
 |   Keerti Ojha     |   001050173     |
 | Priyanka Malpekar |   001302741     |
 
+## Serverless Lambda Functions
+
+**Reference Folder:** `/lambda functions`
 
 ## Black Box Unit Testing Using Pytest
 
