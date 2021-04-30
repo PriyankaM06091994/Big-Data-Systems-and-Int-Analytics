@@ -37,7 +37,7 @@ Password: admin
 * [Requirements](#requirements)
 * [Setup](#setup)
 * [StepToRegenerate](#stepstoregenerate)
-* [Serverless-Lambda-Function](#serverless-lambda-function)
+* [ServerlessLambdaFunction](#serverlesslambdafunction)
 * [Streamlit](#streamlit)
 * [BlackBoxTesting](#blackboxtesting)
 * [Locust](#locust)
@@ -56,6 +56,9 @@ The main aim of our project is to handle Emergency audio calls and build a fully
 ![FinalProject](https://user-images.githubusercontent.com/59594174/116679555-a8e9db00-a978-11eb-93d8-6263c063f2cf.png)
 
 ## Use Cases
+
+![6](https://user-images.githubusercontent.com/59846364/116680705-fca8f400-a979-11eb-820c-27de04b3f65e.png)
+
 
 ## Dataset
 
@@ -132,7 +135,7 @@ For detailed setup refer [here](https://codelabs-preview.appspot.com/?file_id=1a
 - Run the streamlit app using `streamlit run streamlit.py`
 
 
-## Serverless-Lambda-Functions
+## ServerlessLambdaFunctions
 
 :file_folder: **Reference Folder:** `/lambda functions`
 
@@ -152,7 +155,14 @@ The following are the serverless lambda functions configured in this project
 * Run the streamlit app using command `streamlit run streamlit.py`
 * You can access the locally app from your browser on `https://localhost:8501`
 
-## Pytest
+![3](https://user-images.githubusercontent.com/59846364/116680297-7db3bb80-a979-11eb-8d33-76af0eb9d0f4.png)
+
+![4](https://user-images.githubusercontent.com/59846364/116680303-7ee4e880-a979-11eb-8dbe-a16baf6fe590.png)
+
+![5](https://user-images.githubusercontent.com/59846364/116680308-80161580-a979-11eb-9b6a-9b3046ccc1fd.png)
+
+
+## BlackBoxTesting
 
 :file_folder: **Reference File:** `/BlackBoxTesting-Pytest/test_api_gateway.py`
 
