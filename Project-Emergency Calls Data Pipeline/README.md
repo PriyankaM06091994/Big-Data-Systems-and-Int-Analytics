@@ -21,8 +21,8 @@ https://www.youtube.com/watch?v=HyeLsyKRRGE
 
 ## AWS Deployment Link:
 
-The Streamlit Web Application can be acccessed at: http://52.86.246.227:8501
-Login Credentials to try out website:
+- The Streamlit Web Application can be acccessed at: http://52.86.246.227:8501
+- Login Credentials to try out website:
 ```
 Username: admin
 Password: admin
