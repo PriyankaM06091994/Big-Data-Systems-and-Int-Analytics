@@ -72,3 +72,4 @@ In our scenario, we take into consideration different use cases for performing *
 * https://public.opendatasoft.com/explore/dataset/us-zip-code-latitude-and-longitude/
 * https://docs.aws.amazon.com/lambda/latest/dg/with-s3-example.html
 * https://www.mrnice.dev/posts/testing-aws-lambda-and-api-gateway/
+* https://towardsdatascience.com/how-to-deploy-a-streamlit-app-using-an-amazon-free-ec2-instance-416a41f69dc3
