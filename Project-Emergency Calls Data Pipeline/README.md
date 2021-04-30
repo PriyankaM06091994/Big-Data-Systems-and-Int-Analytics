@@ -129,6 +129,14 @@ The following are the serverless lambda functions configured in this project
 * Run the streamlit app using command `streamlit run streamlit.py`
 * You can access the locally app from your browser on `https://localhost:8501`
 
+![s1](https://user-images.githubusercontent.com/59594174/116677378-23652b80-a976-11eb-85d6-191f8b3aa2d8.png)
+
+
+![s2](https://user-images.githubusercontent.com/59594174/116677391-2829df80-a976-11eb-95e2-18d4598eeafe.png)
+
+
+![s3](https://user-images.githubusercontent.com/59594174/116677409-2c55fd00-a976-11eb-98f6-31973db7df45.png)
+
 ## Black Box Unit Testing Using Pytest
 
 :file_folder: **Reference File:** `/BlackBoxTesting-Pytest/test_api_gateway.py`
