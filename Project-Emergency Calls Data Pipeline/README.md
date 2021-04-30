@@ -119,10 +119,10 @@ For detailed setup refer [here](https://codelabs-preview.appspot.com/?file_id=1a
 
 ## Streamlit
 
-Reference Folder: Streamlit/
+:file_folder: **Reference Folder:** Streamlit/
 
-* Run the streamlit app using command streamlit run streamlit.py
-* You can access the app from your browser on https://localhost:8501
+* Run the streamlit app using command `streamlit run streamlit.py`
+* You can access the locally app from your browser on `https://localhost:8501`
 
 ## Black Box Unit Testing Using Pytest
 
