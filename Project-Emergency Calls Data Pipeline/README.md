@@ -14,7 +14,7 @@
 
 ## Table of Contents
 * [About](#about)
-* (Architecture)(#architecture)
+* [Architecture](#architecture)
 * [Dataset](#dataset)
 * [Folder Structure](#folderstructure)
 * [Requirements](#requirements)
