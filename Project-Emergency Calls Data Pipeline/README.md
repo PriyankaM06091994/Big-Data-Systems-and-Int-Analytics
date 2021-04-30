@@ -86,6 +86,17 @@ Project-Emergency Calls Data Pipeline/
     └── welcome.gif
 ```
 
+## Requirements
+
+- Python Version 3.7+
+- Amazon Web Services account to deploy and run. Signup for an AWS Account [here](https://portal.aws.amazon.com/billing/signup#/start).
+- Google Cloud Platform account to leverage various services from Google Maps API. Sign up for $300 credit [here](https://cloud.google.com/free)
+- Refer `requirements.txt` file to install all dependencies.
+- Generate API key and secret access keys from GCP and AWS respectively.
+
+## Setup
+
+For detailed setup refer [here](https://codelabs-preview.appspot.com/?file_id=1aMilpp1VwJ5FC-V7HDH0ZoM2R0hW_5DXFbrj0BSnQKQ#1)
 
 ## Dashboard Links:
 
@@ -96,11 +107,6 @@ Project-Emergency Calls Data Pipeline/
 
 
 
-## Requirements
-
-- Most labs require an Amazon Web Services account to deploy and run. Signup for an AWS Account [here](https://portal.aws.amazon.com/billing/signup#/start).
-- Python 3.7+
-- Refer to the `requirements.txt` file or `README.md` inside the respective directories to install all dependencies.
 
 
 ## Serverless Lambda Functions
