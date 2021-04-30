@@ -140,7 +140,7 @@ In our scenario, we take into consideration different use cases for performing *
 
 :file_folder: **Reference File:** `/Locust/project-locust.py`
 
-Load testing on AWS Api Gateway endpoints: locust -f project-locust.py
+Load testing on AWS Api Gateway endpoints: `locust -f project-locust.py`
 
 This will start the locust console on http://127.0.0.1:8089 in the browser
 
@@ -156,6 +156,8 @@ https://app.powerbi.com/view?r=eyJrIjoiODgzZDQ5YzQtNTNmMS00OWE4LWIwMWMtZGM3MTM0N
 ![pasted image 0](https://user-images.githubusercontent.com/59594174/116649651-c6557f80-a94d-11eb-8806-e3ba4f20bcf6.png)
 
 #### Dashboard 2: 
+
+<iframe width="560" height="315" src="https://app.powerbi.com/view?r=eyJrIjoiZDExNGU2NGYtZmU2MC00M2U3LWI4ODUtYmI4NmNiZGIxMWU5IiwidCI6ImE4ZWVjMjgxLWFhYTMtNGRhZS1hYzliLTlhMzk4YjkyMTVlNyIsImMiOjN9&pageName=ReportSection" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 
 https://app.powerbi.com/view?r=eyJrIjoiZDExNGU2NGYtZmU2MC00M2U3LWI4ODUtYmI4NmNiZGIxMWU5IiwidCI6ImE4ZWVjMjgxLWFhYTMtNGRhZS1hYzliLTlhMzk4YjkyMTVlNyIsImMiOjN9&pageName=ReportSection
 
