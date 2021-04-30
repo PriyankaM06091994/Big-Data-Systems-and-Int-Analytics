@@ -101,11 +101,6 @@ Project-Emergency Calls Data Pipeline/
 
 For detailed setup refer [here](https://codelabs-preview.appspot.com/?file_id=1aMilpp1VwJ5FC-V7HDH0ZoM2R0hW_5DXFbrj0BSnQKQ#1)
 
-## Dashboard Links:
-
-1. https://app.powerbi.com/view?r=eyJrIjoiODgzZDQ5YzQtNTNmMS00OWE4LWIwMWMtZGM3MTM0NGI1MWEzIiwidCI6ImE4ZWVjMjgxLWFhYTMtNGRhZS1hYzliLTlhMzk4YjkyMTVlNyIsImMiOjN9
-
-2. https://app.powerbi.com/view?r=eyJrIjoiZDExNGU2NGYtZmU2MC00M2U3LWI4ODUtYmI4NmNiZGIxMWU5IiwidCI6ImE4ZWVjMjgxLWFhYTMtNGRhZS1hYzliLTlhMzk4YjkyMTVlNyIsImMiOjN9&pageName=ReportSection
 
 
 
@@ -116,6 +111,13 @@ For detailed setup refer [here](https://codelabs-preview.appspot.com/?file_id=1a
 
 :file_folder: **Reference Folder:** `/lambda functions`
 
+The following are the serverless lambda functions configured in this project
+* `getAddress.py` : Fetches the victim address from Dynamodb before sending out notification to corresponding entity
+* `getDataFromS3.py`: Fetches transcribed data (audio-to-text) from the S3 Bucket
+* `movetohistoricalbucket.py`: Moves audio call recordings from S3 for live calls to S3 for historical calls
+* `sns_notification.py`: Triggers SNS email and text notifications to the help relief entity and victim respectively.
+* `transcribejob.py`: Triggers a transcribe job which converts audio calls to transcripts
+* `transcribestatusjob.py`: Fetches the status of the triggered transcribe job to check if it is 'Completed' or 'In Progress'
 
 ## Streamlit
 
