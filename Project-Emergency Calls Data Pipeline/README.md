@@ -36,11 +36,12 @@ Password: admin
 * [FolderStructure](#folderstructure)
 * [Requirements](#requirements)
 * [Setup](#setup)
-* [Steps to regenerate](#stepstoregenerate)
+* [StepToRegenerate](#stepstoregenerate)
 * [Serverless-Lambda-Function](#serverless-lambda-function)
 * [Streamlit](#streamlit)
 * [BlackBoxTesting](#blackboxtesting)
 * [Locust](#locust)
+* [Dashboards](#dashboards)
 * [References](#references)
 
 ## About
@@ -123,15 +124,15 @@ Project-Emergency Calls Data Pipeline/
 
 For detailed setup refer [here](https://codelabs-preview.appspot.com/?file_id=1aMilpp1VwJ5FC-V7HDH0ZoM2R0hW_5DXFbrj0BSnQKQ#1)
 
-## Steps
+## StepToRegenerate
 - Clone the repository
 - Login to your AWS account and create independent lambda functions present in `/lambda functions` folder
 - Create API Gateway and Dynamodb as mentioned in Setup
 - In `/Streamlit/config.py` file replace the AWS and GCP Maps Keys with your generated keys
-- 
+- Run the streamlit app using `streamlit run streamlit.py`
 
 
-## Serverless Lambda Functions
+## Serverless-Lambda-Functions
 
 :file_folder: **Reference Folder:** `/lambda functions`
 
@@ -151,7 +152,7 @@ The following are the serverless lambda functions configured in this project
 * Run the streamlit app using command `streamlit run streamlit.py`
 * You can access the locally app from your browser on `https://localhost:8501`
 
-## Black Box Unit Testing Using Pytest
+## Pytest
 
 :file_folder: **Reference File:** `/BlackBoxTesting-Pytest/test_api_gateway.py`
 
