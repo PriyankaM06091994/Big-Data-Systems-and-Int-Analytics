@@ -20,10 +20,10 @@
 * [Requirements](#requirements)
 * [Setup](#setup)
 * [Steps to regenerate](#stepstoregenerate)
-* [Serverless Lambda Function](#serverlesslambdafunction)
+* [Serverless Lambda Function](#serverless lambda function)
 * [Streamlit](#streamlit)
 * [Black Box Testing - PyTest](#blackboxtesting-pytest)
-* [Load Testing - Locust](#loadtesting-locust)
+* [Load Testing - Locust](#load testing - locust)
 * [References](#references)
 
 ## About
