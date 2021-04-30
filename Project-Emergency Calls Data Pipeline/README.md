@@ -21,7 +21,7 @@ https://www.youtube.com/watch?v=HyeLsyKRRGE
 
 ## AWS Deployment Link:
 
-- The Streamlit Web Application can be acccessed at: http://52.86.246.227:8501
+- The Streamlit Web Application hosted on AWS EC2 instance can be acccessed at: http://52.86.246.227:8501
 - Login Credentials to try out website:
 ```
 Username: admin
