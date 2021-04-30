@@ -52,6 +52,9 @@ The main aim of our project is to handle Emergency audio calls and build a fully
 
 ## Architecture
 
+![FinalProject](https://user-images.githubusercontent.com/59594174/116677087-c9646600-a975-11eb-8e9b-79960448b48c.png)
+
+
 ## Dataset
 
 In our scenario, we are fetching real time call data that is being received and recorded through AWS Connect Service which are in the format .wav files. This audio call recording data will be stored in AWS S3 bucket as soon as the call between the customer and agent is closed.
