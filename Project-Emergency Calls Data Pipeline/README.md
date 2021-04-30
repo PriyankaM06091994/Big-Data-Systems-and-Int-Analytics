@@ -108,6 +108,8 @@ https://app.powerbi.com/view?r=eyJrIjoiZDExNGU2NGYtZmU2MC00M2U3LWI4ODUtYmI4NmNiZ
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/HyeLsyKRRGE/0.jpg)](https://www.youtube.com/watch?v=HyeLsyKRRGE)
 
+[![Everything Is AWESOME](//img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](//www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
+
 ## References:
 
 * https://blog.jcharistech.com/2020/05/30/how-to-add-a-login-section-to-streamlit-blog-app/
