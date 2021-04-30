@@ -136,7 +136,7 @@ In our scenario, we take into consideration different use cases for performing *
 
 ## Locust
 
-Load testing on FastApi endpoints: locust -f project-locust.py
+:file_folder: **Reference File:** `/Locust/project-locust.py`
 
 Load testing on AWS Api Gateway endpoints: locust -f project-locust.py
 
