@@ -13,7 +13,7 @@
 
 
 ## Table of Contents
-* About
+* [About](#about)
 * Architecture
 * Dataset
 * Folder Structure
