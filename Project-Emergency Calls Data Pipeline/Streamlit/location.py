@@ -3,7 +3,7 @@ import numpy as np
 import requests
 from googleplaces import GooglePlaces, types
 import streamlit as st
-
+import config
 
 def get_rand_lat_long():
     df = pd.read_csv('911.csv')
@@ -21,7 +21,7 @@ def get_address():
     index = np.random.randint(0, 663522)
     latitude = df_latlong.loc[index].lat
     longitude = df_latlong.loc[index].lng
-    key = "AIzaSyBWyJXeBhUSMuu9dB7YlMIXFlY0zlr37vg"
+    key = config.google_maps_api["key"]
     response = requests.get(
         f"https://maps.googleapis.com/maps/api/geocode/json?latlng={latitude},{longitude}&key={key}")
     address = response.json()
@@ -29,7 +29,7 @@ def get_address():
 
 
 def get_hospitals(lat, lng):
-    API_KEY = 'AIzaSyBWyJXeBhUSMuu9dB7YlMIXFlY0zlr37vg'
+    API_KEY = config.google_maps_api["key"]
     google_places = GooglePlaces(API_KEY)
     query_result = google_places.nearby_search(
 
@@ -54,11 +54,11 @@ def get_hospitals(lat, lng):
 
     hospitals = pd.DataFrame(hospital_list,
                              columns=["Hospital", "Address", "Contact", "Website", "Rating", "Latitude", "Longitude"])
-    st.write(hospitals)
+    return hospitals
 
 
 def get_police(lat, lng):
-    API_KEY = 'AIzaSyBWyJXeBhUSMuu9dB7YlMIXFlY0zlr37vg'
+    API_KEY = config.google_maps_api["key"]
     google_places = GooglePlaces(API_KEY)
     query_result = google_places.nearby_search(
 
@@ -79,11 +79,11 @@ def get_police(lat, lng):
              place.geo_location['lng']])
 
     hospitals = pd.DataFrame(hospital_list, columns=["Police", "Address", "Contact", "Latitude", "Longitude"])
-    st.write(hospitals)
+    return hospitals
 
 
 def get_fire_dept(lat, lng):
-    API_KEY = 'AIzaSyBWyJXeBhUSMuu9dB7YlMIXFlY0zlr37vg'
+    API_KEY = config.google_maps_api["key"]
     google_places = GooglePlaces(API_KEY)
     query_result = google_places.nearby_search(
 
@@ -104,4 +104,4 @@ def get_fire_dept(lat, lng):
              place.geo_location['lng']])
 
     hospitals = pd.DataFrame(hospital_list, columns=["Fire Station", "Address", "Contact", "Latitude", "Longitude"])
-    st.write(hospitals)
+    return hospitals
