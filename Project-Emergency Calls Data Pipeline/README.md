@@ -11,6 +11,25 @@
 |   Keerti Ojha     |   001050173     |
 | Priyanka Malpekar |   001302741     |
 
+
+## Table of Contents
+* About
+* Architecture
+* Dataset
+* Requirements
+* Setup
+* Steps to regenerate
+* Serverless Lambda Function
+* Streamlit
+* Black Box Testing - PyTest
+* Load Testing - Locust
+* References
+
+
+## Architecture
+
+
+
 ## Serverless Lambda Functions
 
 :file_folder: **Reference Folder:** `/lambda functions`
