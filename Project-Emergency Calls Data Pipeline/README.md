@@ -52,16 +52,30 @@ The main aim of our project is to handle Emergency audio calls and build a fully
 
 ## Architecture
 
-![FinalProject](https://user-images.githubusercontent.com/59594174/116677087-c9646600-a975-11eb-8e9b-79960448b48c.png)
 
+## Use Cases
 
 ## Dataset
 
 In our scenario, we are fetching real time call data that is being received and recorded through AWS Connect Service which are in the format .wav files. This audio call recording data will be stored in AWS S3 bucket as soon as the call between the customer and agent is closed.
 
-## Use Cases
+##### Service stack used:
 
-![usecase](https://user-images.githubusercontent.com/59594174/116678611-81464300-a977-11eb-8141-44c38340bdf9.png)
+:heavy_check_mark: AWS Connect
+:heavy_check_mark: AWS Transcribe
+:heavy_check_mark: AWS Comprehend
+:heavy_check_mark: AWS S3
+:heavy_check_mark: AWS Dynamodb
+:heavy_check_mark: AWS Lambda
+:heavy_check_mark: AWS API Gateway
+:heavy_check_mark: AWS SNS
+:heavy_check_mark: Google Maps API
+:heavy_check_mark: Streamlit
+:heavy_check_mark: Pytest
+:heavy_check_mark: Locust
+:heavy_check_mark: PowerBI
+
+
 
 ## FolderStructure
 
@@ -108,10 +122,12 @@ Project-Emergency Calls Data Pipeline/
 
 For detailed setup refer [here](https://codelabs-preview.appspot.com/?file_id=1aMilpp1VwJ5FC-V7HDH0ZoM2R0hW_5DXFbrj0BSnQKQ#1)
 
-
-
-
-
+## Steps
+- Clone the repository
+- Login to your AWS account and create independent lambda functions present in `/lambda functions` folder
+- Create API Gateway and Dynamodb as mentioned in Setup
+- In `/Streamlit/config.py` file replace the AWS and GCP Maps Keys with your generated keys
+- 
 
 
 ## Serverless Lambda Functions
@@ -126,20 +142,13 @@ The following are the serverless lambda functions configured in this project
 * `transcribejob.py`: Triggers a transcribe job which converts audio calls to transcripts
 * `transcribestatusjob.py`: Fetches the status of the triggered transcribe job to check if it is 'Completed' or 'In Progress'
 
+
 ## Streamlit
 
 :file_folder: **Reference Folder:** Streamlit/
 
 * Run the streamlit app using command `streamlit run streamlit.py`
 * You can access the locally app from your browser on `https://localhost:8501`
-
-![s1](https://user-images.githubusercontent.com/59594174/116677378-23652b80-a976-11eb-85d6-191f8b3aa2d8.png)
-
-
-![s2](https://user-images.githubusercontent.com/59594174/116677391-2829df80-a976-11eb-95e2-18d4598eeafe.png)
-
-
-![s3](https://user-images.githubusercontent.com/59594174/116677409-2c55fd00-a976-11eb-98f6-31973db7df45.png)
 
 ## Black Box Unit Testing Using Pytest
 
@@ -167,13 +176,11 @@ This will start the locust console on http://127.0.0.1:8089 in the browser
 
 https://app.powerbi.com/view?r=eyJrIjoiODgzZDQ5YzQtNTNmMS00OWE4LWIwMWMtZGM3MTM0NGI1MWEzIiwidCI6ImE4ZWVjMjgxLWFhYTMtNGRhZS1hYzliLTlhMzk4YjkyMTVlNyIsImMiOjN9
 
-
 ![pasted image 0](https://user-images.githubusercontent.com/59594174/116649651-c6557f80-a94d-11eb-8806-e3ba4f20bcf6.png)
 
 #### Dashboard 2: 
 
 https://app.powerbi.com/view?r=eyJrIjoiZDExNGU2NGYtZmU2MC00M2U3LWI4ODUtYmI4NmNiZGIxMWU5IiwidCI6ImE4ZWVjMjgxLWFhYTMtNGRhZS1hYzliLTlhMzk4YjkyMTVlNyIsImMiOjN9&pageName=ReportSection
-
 
 ![pasted image 0 (2)](https://user-images.githubusercontent.com/59594174/116651053-5d233b80-a950-11eb-9904-efcb49eda74b.png)
 
