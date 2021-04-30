@@ -44,6 +44,11 @@
 
 ## Streamlit
 
+Reference Folder: Streamlit/
+
+* Run the streamlit app using command streamlit run streamlit.py
+* You can access the app from your browser on https://localhost:8501
+
 ## Black Box Unit Testing Using Pytest
 
 :file_folder: **Reference File:** `/BlackBoxTesting-Pytest/test_api_gateway.py`
@@ -55,6 +60,12 @@ In our scenario, we take into consideration different use cases for performing *
 ![git](https://user-images.githubusercontent.com/59846364/116640531-d0b94e80-a938-11eb-8e70-a765c4b3ac83.PNG)
 
 ## Locust
+
+Load testing on FastApi endpoints: locust -f project-locust.py
+
+Load testing on AWS Api Gateway endpoints: locust -f project-locust.py
+
+This will start the locust console on http://127.0.0.1:8089 in the browser
 
 ## Dashboards
 
