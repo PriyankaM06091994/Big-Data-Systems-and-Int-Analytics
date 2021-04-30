@@ -14,17 +14,17 @@
 
 ## Table of Contents
 * [About](#about)
-* Architecture
-* Dataset
-* Folder Structure
-* Requirements
-* Setup
-* Steps to regenerate
-* Serverless Lambda Function
-* Streamlit
-* Black Box Testing - PyTest
-* Load Testing - Locust
-* References
+* (Architecture)(#architecture)
+* [Dataset](#dataset)
+* [Folder Structure](#folderstructure)
+* [Requirements](#requirements)
+* [Setup](#setup)
+* [Steps to regenerate](#stepstoregenerate)
+* [Serverless Lambda Function](#serverlesslambdafunction)
+* [Streamlit](#streamlit)
+* [Black Box Testing - PyTest](#blackboxtesting-pytest)
+* [Load Testing - Locust](#loadtesting-locust)
+* [References](#references)
 
 ## About
 
