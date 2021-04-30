@@ -89,6 +89,8 @@ Load testing on AWS Api Gateway endpoints: locust -f project-locust.py
 
 This will start the locust console on http://127.0.0.1:8089 in the browser
 
+![locust](https://user-images.githubusercontent.com/59594174/116653775-d83b2080-a955-11eb-989f-16e25421cab1.png)
+
 ## Dashboards
 
 #### Dashboard 1:
