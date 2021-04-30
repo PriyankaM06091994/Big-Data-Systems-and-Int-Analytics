@@ -30,3 +30,15 @@ In our scenario, we take into consideration different use cases for performing *
 
 
 
+## References:
+
+https://blog.jcharistech.com/2020/05/30/how-to-add-a-login-section-to-streamlit-blog-app/
+https://docs.aws.amazon.com/connect/latest/adminguide/data-streaming.html
+https://docs.aws.amazon.com/connect/latest/adminguide/set-up-recordings.html
+https://github.com/jrieke/streamlit-analytics
+https://developers.google.com/maps/documentation/geocoding/overview?hl=en_US#ReverseGeocoding
+https://developers.google.com/maps/documentation/embed/embedding-map
+https://www.geeksforgeeks.org/python-fetch-nearest-hospital-locations-using-googlemaps-api/
+https://public.opendatasoft.com/explore/dataset/us-zip-code-latitude-and-longitude/
+https://docs.aws.amazon.com/lambda/latest/dg/with-s3-example.html
+https://www.mrnice.dev/posts/testing-aws-lambda-and-api-gateway/
