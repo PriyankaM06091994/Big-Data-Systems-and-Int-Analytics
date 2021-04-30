@@ -66,19 +66,19 @@ In our scenario, we are fetching real time call data that is being received and 
 
 ##### Service stack used:
 
-- :heavy_check_mark: AWS Connect
-- :heavy_check_mark: AWS Transcribe
-- :heavy_check_mark: AWS Comprehend
-- :heavy_check_mark: AWS S3
-- :heavy_check_mark: AWS Dynamodb
-- :heavy_check_mark: AWS Lambda
-- :heavy_check_mark: AWS API Gateway
-- :heavy_check_mark: AWS SNS
-- :heavy_check_mark: Google Maps API
-- :heavy_check_mark: Streamlit
-- :heavy_check_mark: Pytest
-- :heavy_check_mark: Locust
-- :heavy_check_mark: PowerBI
+- :white_check_mark: AWS Connect
+- :white_check_mark: AWS Transcribe
+- :white_check_mark: AWS Comprehend
+- :white_check_mark: AWS S3
+- :white_check_mark: AWS Dynamodb
+- :white_check_mark: AWS Lambda
+- :white_check_mark: AWS API Gateway
+- :white_check_mark: AWS SNS
+- :white_check_mark: Google Maps API
+- :white_check_mark: Streamlit
+- :white_check_mark: Pytest
+- :white_check_mark: Locust
+- :white_check_mark: PowerBI
 
 
 
@@ -127,7 +127,7 @@ Project-Emergency Calls Data Pipeline/
 
 For detailed setup refer [here](https://codelabs-preview.appspot.com/?file_id=1aMilpp1VwJ5FC-V7HDH0ZoM2R0hW_5DXFbrj0BSnQKQ#1)
 
-## StepToRegenerate
+## StepsToRegenerate
 - Clone the repository
 - Login to your AWS account and create independent lambda functions present in `/lambda functions` folder
 - Create API Gateway and Dynamodb as mentioned in Setup
