@@ -23,7 +23,7 @@
 * [Serverless Lambda Function](#serverless lambda function)
 * [Streamlit](#streamlit)
 * [Black Box Testing - PyTest](#blackboxtesting-pytest)
-* [Load Testing - Locust](#load testing - locust)
+* [Locust](#locust)
 * [References](#references)
 
 ## About
