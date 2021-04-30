@@ -36,7 +36,7 @@ Link: https://codelabs-preview.appspot.com/?file_id=1hLC_-yuAXatvpq8ndS7YYJFFCvr
 
 ## AWS Deployment Link:
 
-Link: 
+Link: http://52.86.246.227:8501
 
 Login Credentials to try our website:
 Username: admin
