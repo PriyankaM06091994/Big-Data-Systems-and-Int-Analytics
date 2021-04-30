@@ -36,7 +36,7 @@ Password: admin
 * [FolderStructure](#folderstructure)
 * [Requirements](#requirements)
 * [Setup](#setup)
-* [StepToRegenerate](#stepstoregenerate)
+* [StepsToRegenerate](#stepstoregenerate)
 * [ServerlessLambdaFunction](#serverlesslambdafunction)
 * [Streamlit](#streamlit)
 * [BlackBoxTesting](#blackboxtesting)
