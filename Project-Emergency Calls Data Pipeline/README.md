@@ -74,9 +74,13 @@ This will start the locust console on http://127.0.0.1:8089 in the browser
 https://app.powerbi.com/view?r=eyJrIjoiODgzZDQ5YzQtNTNmMS00OWE4LWIwMWMtZGM3MTM0NGI1MWEzIiwidCI6ImE4ZWVjMjgxLWFhYTMtNGRhZS1hYzliLTlhMzk4YjkyMTVlNyIsImMiOjN9
 
 
+![pasted image 0](https://user-images.githubusercontent.com/59594174/116649651-c6557f80-a94d-11eb-8806-e3ba4f20bcf6.png)
+
 #### Dashboard 2: 
 
 https://app.powerbi.com/view?r=eyJrIjoiZDExNGU2NGYtZmU2MC00M2U3LWI4ODUtYmI4NmNiZGIxMWU5IiwidCI6ImE4ZWVjMjgxLWFhYTMtNGRhZS1hYzliLTlhMzk4YjkyMTVlNyIsImMiOjN9&pageName=ReportSection
+
+![pasted image 0 (1)](https://user-images.githubusercontent.com/59594174/116649659-cbb2ca00-a94d-11eb-8c8b-3348813de136.png)
 
 
 ## References:
