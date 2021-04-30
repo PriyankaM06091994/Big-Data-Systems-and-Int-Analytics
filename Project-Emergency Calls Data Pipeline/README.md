@@ -55,7 +55,36 @@ In our scenario, we are fetching real time call data that is being received and 
 
 ## FolderStructure
 
-
+The overall folder structure of the project is summarized as below:
+```
+Project-Emergency Calls Data Pipeline/
+├── BlackBoxTesting-Pytest/
+│   └── test_api_gateway.py
+├── lambda functions/
+│   ├── getAddress.py
+│   ├── getDataFromS3.py
+│   ├── movetohistoricalbucket.py
+│   ├── sns_notification.py
+│   ├── transcribejob.py
+│   └── transcribestatusjob.py
+├── Locust/
+│   └── project-locust.py
+├── PowerBi/
+│   ├── EmergencyCalls.pdf
+│   └── EmergencyCallsDataAnalysis.pdf
+├── README.md
+└── Streamlit/
+    ├── config.py
+    ├── data.db
+    ├── download_audio.py
+    ├── location.py
+    ├── requirements.txt
+    ├── services.py
+    ├── streamlit.py
+    ├── support.png
+    ├── test.py
+    └── welcome.gif
+```
 
 
 ## Dashboard Links:
