@@ -13,14 +13,14 @@
 
 ## Serverless Lambda Functions
 
-**Reference Folder:** `/lambda functions`
+:file_folder: **Reference Folder:** `/lambda functions`
 
 
 ## Streamlit
 
 ## Black Box Unit Testing Using Pytest
 
-**Reference File:** `/BlackBoxTesting-Pytest/test_api_gateway.py`
+:file_folder: **Reference File:** `/BlackBoxTesting-Pytest/test_api_gateway.py`
 
 **Command to execute:** `python -m pytest -v`
 
