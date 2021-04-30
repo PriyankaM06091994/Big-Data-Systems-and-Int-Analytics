@@ -47,6 +47,9 @@ Password: admin
 
 The main aim of our project is to handle Emergency audio calls and build a fully functional data pipeline to notify it to the correct entities using various AWS services and demonstrating insights in a reference web application.
 
+![a](https://user-images.githubusercontent.com/59846364/116672228-ee55da80-a96f-11eb-82d7-a94e27b4fc28.png)
+
+
 ## Architecture
 
 ## Dataset
