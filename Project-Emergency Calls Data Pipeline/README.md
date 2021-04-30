@@ -33,7 +33,7 @@ Password: admin
 * [About](#about)
 * [Architecture](#architecture)
 * [Dataset](#dataset)
-* [Folder Structure](#folderstructure)
+* [FolderStructure](#folderstructure)
 * [Requirements](#requirements)
 * [Setup](#setup)
 * [Steps to regenerate](#stepstoregenerate)
