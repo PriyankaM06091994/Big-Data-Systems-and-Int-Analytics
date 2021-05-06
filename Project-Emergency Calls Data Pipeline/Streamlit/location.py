@@ -21,7 +21,7 @@ def get_address():
     index = np.random.randint(0, 663522)
     latitude = df_latlong.loc[index].lat
     longitude = df_latlong.loc[index].lng
-    key = "AIzaSyBWyJXeBhUSMuu9dB7YlMIXFlY0zlr37vg"
+    key = "*********************************************"
     response = requests.get(
         f"https://maps.googleapis.com/maps/api/geocode/json?latlng={latitude},{longitude}&key={key}")
     address = response.json()
