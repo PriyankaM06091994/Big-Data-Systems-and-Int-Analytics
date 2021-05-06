@@ -53,7 +53,7 @@ The main aim of our project is to handle Emergency audio calls and build a fully
 
 ## Architecture
 
-![FinalProject](https://user-images.githubusercontent.com/59594174/116679555-a8e9db00-a978-11eb-93d8-6263c063f2cf.png)
+![FinalProject](https://user-images.githubusercontent.com/59594174/117336122-d8fa1800-ae69-11eb-88bc-23fed57a59b8.png)
 
 ## Use Cases
 
