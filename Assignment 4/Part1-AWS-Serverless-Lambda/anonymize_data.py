@@ -7,8 +7,8 @@ def lambda_handler(event, context):
     # TODO implement
     print(event)
     print(event['params']['querystring']["entitylist"])
-    s3 = boto3.client('s3', aws_access_key_id='AKIAIQNLMUEU5NRSNWKA',
-                      aws_secret_access_key='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')
+    s3 = boto3.client('s3', aws_access_key_id='****************************',
+                      aws_secret_access_key='********************************')
     comprehend = boto3.client("comprehend")
 
     response = comprehend.start_pii_entities_detection_job(
