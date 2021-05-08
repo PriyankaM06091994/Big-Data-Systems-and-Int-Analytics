@@ -169,7 +169,7 @@ def login_menu():
             if st.button('Convert Audio to text'):
                 # api_gateway = boto3.client('apigateway', region_name='us-east-1')
                 response = requests.get(
-                    f"https://y3oms23bzk.execute-api.us-east-1.amazonaws.com/dev/triggertranscribe?uri={path}&jobname={JobName}"
+                    f"https://xxxxxxxxxx.execute-api.us-east-1.amazonaws.com/dev/triggertranscribe?uri={path}&jobname={JobName}"
                 )
 
                 progress_bar = st.progress(0)
@@ -177,7 +177,7 @@ def login_menu():
 
                 for i in range(100):
                     responsecheck = requests.get(
-                        f"https://y3oms23bzk.execute-api.us-east-1.amazonaws.com/dev/jobstatus?jobname={JobName}")
+                        f"https://xxxxxxxxxx.execute-api.us-east-1.amazonaws.com/dev/jobstatus?jobname={JobName}")
                     status = responsecheck.json()
                     print(status)
                     if status['body'] == "IN_PROGRESS":
@@ -192,7 +192,7 @@ def login_menu():
             st.info("Please click below button to see text data")
             if st.button("Text Data"):
                 responsedata = requests.get(
-                    f"https://y3oms23bzk.execute-api.us-east-1.amazonaws.com/dev/readdata?jobname={JobName}")
+                    f"https://xxxxxxxxxx.execute-api.us-east-1.amazonaws.com/dev/readdata?jobname={JobName}")
                 data = responsedata.json()
                 st.success(data['body'])
         else:
@@ -352,7 +352,7 @@ def login_menu():
             filetonotify=filetonotify.replace(":","_")
             print(filetonotify)
         try:
-            response = requests.get(f"https://y3oms23bzk.execute-api.us-east-1.amazonaws.com/dev/getaddress?filename={filetonotify}")
+            response = requests.get(f"https://xxxxxxxxxx.execute-api.us-east-1.amazonaws.com/dev/getaddress?filename={filetonotify}")
             response_json = response.json()
             print(response_json)
             st.code("Caller's Address" +" - "+response_json['body']['Item']['location']['S']+'\n'+"EmergencyType" +" - "+response_json['body']['Item']['type']['S'])
@@ -406,7 +406,7 @@ def login_menu():
 
             st.title("Sending Notification to the nearest help")
             if st.button("Send Notification"):
-                response=requests.get(f"https://y3oms23bzk.execute-api.us-east-1.amazonaws.com/dev/notification?audiofile={audiofile}&type={type}")
+                response=requests.get(f"https://xxxxxxxxxx.execute-api.us-east-1.amazonaws.com/dev/notification?audiofile={audiofile}&type={type}")
                 response_json=response.json()
                 print(response_json)
                 st.success("Email Sent successfully")
@@ -415,7 +415,7 @@ def login_menu():
                 print(filename)
                 # code to move historical processed call to new bucket
                 # response = requests.get(
-                #     f"https://y3oms23bzk.execute-api.us-east-1.amazonaws.com/dev/movefile?filename={filename}")
+                #     f"https://xxxxxxxxxx.execute-api.us-east-1.amazonaws.com/dev/movefile?filename={filename}")
         except:
             st.error("No new calls to Notify")
 
