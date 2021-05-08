@@ -29,7 +29,7 @@ def get_address():
 
 
 def get_hospitals(lat, lng):
-    API_KEY = 'AIzaSyBWyJXeBhUSMuu9dB7YlMIXFlY0zlr37vg'
+    API_KEY = "*********************************************"
     google_places = GooglePlaces(API_KEY)
     query_result = google_places.nearby_search(
 
@@ -58,7 +58,7 @@ def get_hospitals(lat, lng):
 
 
 def get_police(lat, lng):
-    API_KEY = 'AIzaSyBWyJXeBhUSMuu9dB7YlMIXFlY0zlr37vg'
+    API_KEY = "*********************************************"
     google_places = GooglePlaces(API_KEY)
     query_result = google_places.nearby_search(
 
@@ -83,7 +83,7 @@ def get_police(lat, lng):
 
 
 def get_fire_dept(lat, lng):
-    API_KEY = 'AIzaSyBWyJXeBhUSMuu9dB7YlMIXFlY0zlr37vg'
+    API_KEY = "*********************************************"
     google_places = GooglePlaces(API_KEY)
     query_result = google_places.nearby_search(
 
