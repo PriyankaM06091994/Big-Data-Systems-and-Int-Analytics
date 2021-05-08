@@ -318,7 +318,7 @@ def login_menu():
                             else:
                                 address = location.replace(" ", "+")
                                 response = requests.get(
-                                    f'https://maps.googleapis.com/maps/api/geocode/json?address={address}&key=AIzaSyBWyJXeBhUSMuu9dB7YlMIXFlY0zlr37vg')
+                                    f'https://maps.googleapis.com/maps/api/geocode/json?address={address}&key=*********************************')
 
                                 response_json = response.json()
                                 lattitude = str(response_json['results'][0]['geometry']['location']['lat'])
