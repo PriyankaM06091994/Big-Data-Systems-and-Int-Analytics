@@ -1,5 +1,5 @@
 username='***********'
 password='**********'
-account='tza57982.us-east-1'
+account='********.us-east-1'
 warehouse='COMPUTE_WH'
 database='sevir'
