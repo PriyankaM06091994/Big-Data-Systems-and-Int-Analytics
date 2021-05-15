@@ -12,7 +12,7 @@ engine = create_engine(
       'snowflake://{user}:{password}@{account}/{database}/{schema}?warehouse={warehouse_name}&role={role_name}'.format(
         user='**************',
         password='*********',
-        account='tza57982.us-east-1',
+        account='********.us-east-1',
         database='sevir',
         schema='public',
         warehouse_name='COMPUTE_WH',
