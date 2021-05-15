@@ -1,6 +1,6 @@
 ## Big Data Systems and Int Analytics
  
-## Assignment 3-Part 1
+## Assignment 3
 
 #### Team Information
 
