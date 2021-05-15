@@ -30,7 +30,7 @@ if chosenRadioButton == 'Authentication':
                                           region_name='us-east-1'
                                           )
                 response = aws_client.admin_create_user(
-                    UserPoolId='us-east-1_XWXBnerd1',
+                    UserPoolId='us-east-1_*********',
                     Username=usrname,
                     UserAttributes=[
                         {
@@ -88,7 +88,7 @@ if chosenRadioButton == 'Load the Data':
     if st.button('Get Data'):
 
         if authValue == "True" or currentF == "Load the Data":
-            response = requests.get(f"https://l2n8cj51a7.execute-api.us-east-1.amazonaws.com/prod/{bucket}?file={filetest}")
+            response = requests.get(f"https://**********.execute-api.us-east-1.amazonaws.com/prod/{bucket}?file={filetest}")
             data_list = response.json()
             st.success(data_list['body'])
             authValue = "False"
@@ -195,7 +195,7 @@ if chosenRadioButton == 'Anonymize Data':
 
     if st.button('Load Anonymize data in S3'):
         api_gateway = boto3.client('apigateway', region_name='us-east-1')
-        response = requests.get(f"https://l2n8cj51a7.execute-api.us-east-1.amazonaws.com/prod/identifyentities?uri={s3uri}&entitylist={entityList}&outputuri={outputuri}")
+        response = requests.get(f"https://**********.execute-api.us-east-1.amazonaws.com/prod/identifyentities?uri={s3uri}&entitylist={entityList}&outputuri={outputuri}")
         print(response)
         data_list = response.json()
         st.success(data_list)
@@ -300,7 +300,7 @@ if chosenRadioButton == 'Masking':
         if st.button('Load Masked data in S3'):
             api_gateway = boto3.client('apigateway', region_name='us-east-1')
             response = requests.get(
-                    f" https://l2n8cj51a7.execute-api.us-east-1.amazonaws.com/prod/maskentities?s3uri={s3urimasking}&entitylist={entityList}&outputuri={outputuri}")
+                    f" https://**********.execute-api.us-east-1.amazonaws.com/prod/maskentities?s3uri={s3urimasking}&entitylist={entityList}&outputuri={outputuri}")
             print(response)
             data_list = response.json()
             st.success(data_list['body'])
