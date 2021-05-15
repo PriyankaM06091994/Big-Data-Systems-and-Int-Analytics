@@ -23,7 +23,7 @@ def lambda_handler(event, context):
         },
         JobName="assign-test-comprehend",
         LanguageCode="en",
-        DataAccessRoleArn="arn:aws:iam::075126533249:role/service-role/AmazonComprehendServiceRole-newcomprehend",
+        DataAccessRoleArn="arn:aws:iam::************:role/service-role/AmazonComprehendServiceRole-newcomprehend",
     )
     print("Uploaded in S3")
     return {
