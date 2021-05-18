@@ -48,7 +48,7 @@ def lambda_handler(event, context):
            Subject="Fire Emergency")
 
     #Send a single SMS
-    sns.publish(PhoneNumber="+18573831137",
+    sns.publish(PhoneNumber="",
     Message=str(event['params']['querystring']['audiofile']),
     Subject="Hello")
 
