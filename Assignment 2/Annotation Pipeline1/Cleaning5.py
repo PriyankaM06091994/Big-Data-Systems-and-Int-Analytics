@@ -78,7 +78,7 @@ class ibmfeatures(luigi.Task):
 
     def run(self):
         c=0
-        authenticator = IAMAuthenticator('EKLHgx0kP2YPgbXIuLhb5LZAvepAjmPitUSpsJoxIGB2')
+        authenticator = IAMAuthenticator('')
         natural_language_understanding = NaturalLanguageUnderstandingV1(
             version='2020-08-01',
             authenticator=authenticator)
