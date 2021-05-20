@@ -8,7 +8,7 @@ This repository contains projects, lab work and assignments which covers:
 * Components required to build reproducible and robust data engineering pipelines
 * Understand how to design data-driven applications and pipelines
 * Design production-grade pipelines involving large-scale datasets
-* Design and build REST APIs to facilititate machine-learning-as-a-service
+* Design and build REST APIs to facilitate machine-learning-as-a-service
 * Understand considerations to build scalable applications including interpretability,
 auditability and reproducibility of Machine Learning and Data-driven applications
 
